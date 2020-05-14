@@ -4,6 +4,8 @@
 
 User interface for the Barefoot Nomad app... built with React.
 
+[![Build Status](https://travis-ci.com/STACK-UP-3/warriors-frontend.svg?branch=develop)](https://travis-ci.com/STACK-UP-3/warriors-frontend)
+
 ### Installation
 
 Follow these steps to test this application on your computer:
