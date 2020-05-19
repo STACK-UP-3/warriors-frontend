@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// Materialize JS ~ https://www.youtube.com/watch?v=EboLM8OjlP4
-import M from 'materialize-css';
+import {connect} from 'react-redux'
+import M from 'materialize-css'; // Materialize JS ~ https://www.youtube.com/watch?v=EboLM8OjlP4
+import { onIncrement } from '../redux/actions/actionsExample';
 
-export default class Home extends React.Component {
+export class Home extends React.Component {
   constructor(props) {
     super();
 
@@ -16,13 +17,24 @@ export default class Home extends React.Component {
     // https://materializecss.com/collapsible.html
     document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.collapsible');
-      var instances = M.Collapsible.init(elems, {});
+       M.Collapsible.init(elems, {});
     });
+  }
+
+  onClick =()=>{
+    this.props.onIncrement()
   }
 
   render() {
     return (
+      <div>
       <div className="container">
+        <div>
+        <h1> Count: { this.props.count.count } </h1>
+        <button className="btn waves-effect waves-light" type="submit" name="action" id='submit' onClick={ this.onClick }> increment </button>
+        
+        </div>
+
         <div className="row">
           <h1>BareFoot Nomad Welcomes You!!</h1>
           <p>Year: {this.state.year}</p>
@@ -56,6 +68,7 @@ export default class Home extends React.Component {
           </ul>
         </div>
       </div>
+      </div>
     );
   }
 }
@@ -66,3 +79,17 @@ export default class Home extends React.Component {
 Home.propTypes = {
   yearPublished: PropTypes.number,
 };
+
+// Connecting to the store using connect
+
+const mapStateToProps =(state)=>({
+    count: state.counter,
+});
+
+const mapDispatchToProps =(dispatch)=>({
+    onIncrement: ()=>dispatch(onIncrement( { incrementBy: 1 } )),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
+
+// For more information: https://react-redux.js.org/introduction/quick-start

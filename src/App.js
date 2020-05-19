@@ -1,18 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import AppRoute from './routes/index';
+import configureStore from './redux/configureStore';
 
-import Home from './components/Home';
+const store = configureStore();
 
-const App = () => {
-  return (
-    <BrowserRouter>
-      <div className="app">
-        <Switch>
-          <Route exact path="/" component={Home} />
-        </Switch>
-      </div>
-    </BrowserRouter>
-  );
-};
+// Providing access to the store to every route, Resource: https://react-redux.js.org/introduction/quick-start
 
-export default App;
+const App =(
+  <Provider store= { store } >
+      <AppRoute />
+  </Provider>
+);
+
+export default App; 

@@ -1,4 +1,4 @@
-# warriors-frontend
+# warriorz-frontend
 
 > A project by Andela Stack-Up 3 (Warriorz team)
 
