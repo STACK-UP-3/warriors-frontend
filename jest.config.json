@@ -3,5 +3,5 @@
   "setupFilesAfterEnv": ["<rootDir>/src/tests/jest.setup.js"],
   "collectCoverage": true,
   "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"],
-  "coverageReporters": ["lcov"]
+  "coverageReporters": ["text", "lcov", "json", "html"]
 }

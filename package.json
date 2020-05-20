@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand",
+    "test": "jest --runInBand --coverage",
     "start": "npm run build",
     "start:dev": "npm run build:dev",
     "build": "webpack -p && webpack-dev-server --content-base src/",
