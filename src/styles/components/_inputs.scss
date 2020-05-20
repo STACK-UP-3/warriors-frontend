@@ -1,0 +1,20 @@
+#textInput{
+    position: relative;
+
+    .input-field{
+        margin: 0;
+        height: 40px;
+    }
+
+    input{
+        height: 30px;
+        margin: 0;
+    }
+    label{
+        color: $baseBlue;
+        font-weight: 300;
+        font-style: normal;
+        margin-top: -10px;
+    }
+
+}

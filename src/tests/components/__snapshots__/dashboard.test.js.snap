@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the Dashboard  component *************** Should render the dashboard page correctly 1`] = `
+<div>
+  <h1>
+     Welcome To Your Dashboard 
+  </h1>
+  <p>
+     Your token is: 
+     
+  </p>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the Signup  component *************** Should render the reset password page correctly 1`] = `
+<div>
+  <h1>
+     You are on the sign up page 
+  </h1>
+</div>
+`;

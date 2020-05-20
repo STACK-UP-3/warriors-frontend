@@ -1,8 +1,8 @@
+// For more information visit: https://redux.js.org/api/combinereducers
+
 import { combineReducers } from 'redux';
-import { storeReducer } from './reducer.example';
+import loginReducer from './loginReducer';
 
 export default combineReducers({
-    counter: storeReducer,  // Can have multiple values
+    loginData: loginReducer, 
 });
-
-// For more information visit: https://redux.js.org/api/combinereducers
