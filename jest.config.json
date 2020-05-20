@@ -1,4 +1,7 @@
 {
   "testRegex": "((\\.|/*.)(spec|test))\\.js?$",
-  "setupFilesAfterEnv": ["<rootDir>/src/tests/jest.setup.js"]
+  "setupFilesAfterEnv": ["<rootDir>/src/tests/jest.setup.js"],
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"],
+  "coverageReporters": ["lcov"]
 }
