@@ -1,10 +1,12 @@
 # warriorz-frontend
 
-> A project by Andela Stack-Up 3 (Warriorz team)
+[![Build Status](https://travis-ci.com/STACK-UP-3/warriors-frontend.svg?branch=develop)](https://travis-ci.com/STACK-UP-3/warriors-frontend)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2be1a7a7abf84c601e9d/maintainability)](https://codeclimate.com/github/STACK-UP-3/warriors-frontend/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2be1a7a7abf84c601e9d/test_coverage)](https://codeclimate.com/github/STACK-UP-3/warriors-frontend/test_coverage)
+
+> A project by the Warriorz team at Andela Stack-Up 3
 
 User interface for the Barefoot Nomad app... built with React.
-
-[![Build Status](https://travis-ci.com/STACK-UP-3/warriors-frontend.svg?branch=develop)](https://travis-ci.com/STACK-UP-3/warriors-frontend)
 
 ### Installation
 
