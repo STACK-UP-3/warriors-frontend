@@ -1,0 +1,8 @@
+{
+  "testRegex": "((\\.|/*.)(spec|test))\\.js?$",
+  "setupFilesAfterEnv": ["<rootDir>/src/tests/enzyme.config.js"],
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"],
+  "coverageReporters": ["text", "lcov", "json", "html"]
+}
