@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<SocialAuth>
+  <div
+    className="socialAuth"
+  >
+    <p>
+      or login with:
+    </p>
+    <div
+      className="socialAuthImg"
+    >
+      <div
+        id="google"
+        onClick={[Function]}
+      >
+        <img
+          src="../assets/google.svg"
+        />
+      </div>
+      <div
+        id="facebook"
+        onClick={[Function]}
+      >
+        <img
+          src="../assets/facebook.png"
+        />
+      </div>
+    </div>
+  </div>
+</SocialAuth>
+`;

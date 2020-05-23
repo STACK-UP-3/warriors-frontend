@@ -1,7 +1,7 @@
-import httpConfig from '../../helpers/httpHandle';
+import { ReqNoPayload } from '../../helpers/httpHandle';
 
 describe('Test httpConfiguration', () => {
   it('Should return configuration',() => {
-    expect(httpConfig());
+    expect(ReqNoPayload());
   });
 });

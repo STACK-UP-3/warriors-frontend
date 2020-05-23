@@ -77,7 +77,7 @@ export default (props)=>{
                             onClick={ forgotPassword }
                         > 
                             Forgot password?
-                        </span> 
+                        </span>
                             <br/> <br/>
                         <span className='error'>
                             { formState.error ==='You have signed in successfully' ? null : (formState.error) } 
@@ -102,10 +102,10 @@ export default (props)=>{
                                 /> 
                                 ):'Login'}
                                 
-                    </button>
-                </div>
-            </div>
-    </form>
-</div>
+                            </button>
+                        </div>
+                    </div>
+            </form>
+        </div>
     );
 };

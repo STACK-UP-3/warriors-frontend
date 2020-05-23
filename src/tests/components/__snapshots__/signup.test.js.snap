@@ -25,41 +25,37 @@ exports[`Test <SignupForm/> Component Should render signup page 1`] = `
     <div
       className="formContainer"
     >
-      <h4
-        className="center"
-      >
+      <h1>
          Sign up to BareFoot Nomad 
-      </h4>
-      <br />
+      </h1>
       <Connect(SignupForm)
         testdata="signupForm"
       />
       <br />
-      <p
-        className="center-align"
-      >
-        Or Signup with:
-      </p>
-      <br />
       <div
-        className="socialAuth container center"
+        className="socialAuth"
       >
-        <a
-          href=""
+        <p>
+          Or Signup with:
+        </p>
+        <div
+          className="socialAuthImg"
         >
-          <img
+          <div
             id="google"
-            src="../assets/google.svg"
-          />
-        </a>
-        <a
-          href=""
-        >
-          <img
+          >
+            <img
+              src="../assets/google.svg"
+            />
+          </div>
+          <div
             id="facebook"
-            src="../assets/facebook.png"
-          />
-        </a>
+          >
+            <img
+              src="../assets/facebook.png"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
