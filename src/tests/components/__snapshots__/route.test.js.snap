@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <AppRoute/> componet Should render AppRoute 1`] = `
+<BrowserRouter>
+  <div
+    className="app"
+  >
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/signup"
+      />
+    </Switch>
+  </div>
+</BrowserRouter>
+`;

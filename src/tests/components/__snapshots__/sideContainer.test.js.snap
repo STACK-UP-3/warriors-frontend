@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the SideContainer  component *************** Should render the SideContainer page correctly 1`] = `
+<div
+  className="sideContainer"
+>
+  <div
+    className="background"
+  />
+  <div
+    className="content"
+  >
+    <h3>
+      Welcome to BR
+    </h3>
+    signup here
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+.submitBtn {
+  margin-top: 2vh;
+  text-align: center;
+
+  button {
+    background-color: $baseBlue;
+    width: 150px;
+    height: 40px;
+    text-transform: capitalize;
+
+    @media (max-width: 420px) {
+      width: 100px;
+      height: 40px;
+      padding-bottom: 5px;
+    }
+  }
+}

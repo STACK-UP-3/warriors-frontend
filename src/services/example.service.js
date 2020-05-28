@@ -1,3 +1,1 @@
-export const action_1 = ()=>{
-    // carryout the first action
-};
+// carryout the first action

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Home/> Component Should render Home component 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    Welcome to Barefoot Nomad
+    <div
+      className="center"
+    >
+      <a
+        className="wave-effect wave-light btn blue darken-3 hoverable home-auth-btn"
+        href="/signup"
+      >
+        Signup
+      </a>
+      <a
+        className="wave-effect wave-light btn blue darken-3 hoverable home-auth-btn"
+        href="/login"
+      >
+        Login
+      </a>
+    </div>
+  </div>
+</div>
+`;

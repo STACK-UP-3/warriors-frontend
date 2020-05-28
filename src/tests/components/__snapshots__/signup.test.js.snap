@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <SignupForm/> Component Should render signup page 1`] = `
+<div
+  className="signupContainer"
+>
+  <div
+    className="main"
+  >
+    <_default
+      subtitle={
+        <div>
+          <p>
+            Join 3000+
+            <br />
+             people using
+            <br />
+             Barefoot Nomad
+          </p>
+          <br />
+        </div>
+      }
+      title="Welcome to BareFoot Nomad"
+    />
+    <div
+      className="formContainer"
+    >
+      <h4
+        className="center"
+      >
+         Sign up to BareFoot Nomad 
+      </h4>
+      <br />
+      <Connect(SignupForm)
+        testdata="signupForm"
+      />
+      <br />
+      <p
+        className="center-align"
+      >
+        Or Signup with:
+      </p>
+      <br />
+      <div
+        className="socialAuth container center"
+      >
+        <a
+          href=""
+        >
+          <img
+            id="google"
+            src="../assets/google.svg"
+          />
+        </a>
+        <a
+          href=""
+        >
+          <img
+            id="facebook"
+            src="../assets/facebook.png"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <_default />
+</div>
+`;
+
+exports[`Test <SignupForm/> Component Should render the signup form correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(SignupForm)>
+    <SignupForm
+      signup={
+        Object {
+          "error": false,
+          "loading": false,
+          "message": "",
+        }
+      }
+      signupProcess={[Function]}
+    >
+      <div>
+        <form
+          className="col s12"
+          onSubmit={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": Promise {},
+                },
+              ],
+            }
+          }
+          testdata="signupForm"
+        >
+          <div
+            className="form-content"
+          >
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <input
+                  className="validate"
+                  id="firstname"
+                  name="firstname"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="firstname"
+                >
+                  First Name
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="lastname"
+                  name="lastname"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="lastname"
+                >
+                  Last Name
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="email"
+                  name="email"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="email"
+                />
+                <label
+                  htmlFor="email"
+                >
+                  Email
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="password"
+                  name="password"
+                  onChange={[Function]}
+                  type="password"
+                />
+                <label
+                  htmlFor="password"
+                >
+                  Password
+                </label>
+              </div>
+            </div>
+            <div
+              className="contentFooter"
+            >
+              <ToastContainer
+                autoClose={false}
+                closeButton={[Function]}
+                closeOnClick={true}
+                draggable={false}
+                draggablePercent={80}
+                hideProgressBar={true}
+                newestOnTop={false}
+                onClick={[Function]}
+                pauseOnFocusLoss={true}
+                pauseOnHover={true}
+                position="top-center"
+                role="alert"
+                rtl={false}
+                transition={[Function]}
+              >
+                <div
+                  className="Toastify"
+                />
+              </ToastContainer>
+              <p>
+                Have an account already? 
+                <a
+                  href="/login"
+                >
+                  Login
+                </a>
+              </p>
+            </div>
+          </div>
+          <div
+            className="form-footer"
+          >
+            <div
+              className="submitBtn"
+            >
+              <button
+                className="btn waves-effect waves-light"
+                disabled={true}
+                id="submit"
+                type="submit"
+              >
+                Signup
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </SignupForm>
+  </Connect(SignupForm)>
+</Provider>
+`;

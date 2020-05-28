@@ -4,5 +4,10 @@
   "snapshotSerializers": ["enzyme-to-json/serializer"],
   "collectCoverage": true,
   "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"],
-  "coverageReporters": ["text", "lcov", "json", "html"]
+  "coverageReporters": ["text", "lcov", "json", "html"],
+  "moduleNameMapper": {
+    "\\.(jpg|ico|jpeg|png|gif|svg)$": "<rootDir>/src/mocks/fileMock.js",
+    "\\.(scss|css)$": "<rootDir>/src/mocks/styleMock.js"
+  },
+  "coveragePathIgnorePatterns": ["./index.js"]
 }

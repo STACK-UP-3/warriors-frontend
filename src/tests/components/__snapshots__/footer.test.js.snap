@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Footer/> Component Should render Footer with all nodes 1`] = `
+<footer
+  className="page-footer"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="footer"
+    >
+      <span>
+        © 2020 BareFoot Nomad, All rights reserved.
+      </span>
+    </div>
+  </div>
+</footer>
+`;
