@@ -6,3 +6,5 @@ export const SIGNUP_FAILED = 'signup_failed';
 export const LOGIN_ACTION = 'USER_LOGIN';
 export const FETCH_CITIES = 'fetch_cities';
 export const ONEWAY_TRIP_PROCESS = 'oneway_trip_process';
+
+// Rename file to simply 'types.js';

@@ -12,6 +12,6 @@ exports[`Test <App/> Component Should render App 1`] = `
     }
   }
 >
-  <AppRoute />
+  <AppRouter />
 </Provider>
 `;

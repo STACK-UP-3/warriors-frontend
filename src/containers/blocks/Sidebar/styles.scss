@@ -1,0 +1,41 @@
+.sidebar {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-right: 1px solid #ccc;
+	background-color: #f5fafe;
+}
+
+.sidebar .user-view {
+	margin-bottom: 30px;
+}
+
+.sidebar .user-view img {
+	width: 120px;
+}
+
+.sidebar .sidebar-menu {
+	margin-bottom: 0;
+}
+
+.sidebar .sidebar-menu li {
+	padding: 8px 0;
+	border: 1px solid #eee;
+	margin-bottom: 8px;
+}
+
+.sidebar .sidebar-menu li:last-child {
+	margin-bottom: 0;
+}
+
+.sidebar .sidebar-menu li a {
+	font-family: 'Archivo', sans-serif;
+	font-size: 20px;
+	font-weight: medium;
+}
+
+.sidebar .sidebar-menu .material-icons {
+	vertical-align: middle;
+	margin-left: 16px;
+	margin-right: 16px;
+	font-size: 32px;
+}
