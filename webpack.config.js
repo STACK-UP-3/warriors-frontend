@@ -1,7 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const Dotenv = require('dotenv-webpack');
+require('dotenv').config();
 
 var DIST_DIR = path.resolve(__dirname, 'dist'); // Define the distribution directory
 var SRC_DIR = path.resolve(__dirname, 'src'); // Define the source directory
@@ -84,12 +85,15 @@ module.exports =(env)=> {
           devServer: {
             historyApiFallback: true,
           },
-          plugins: [
-              htmlWebpackPlugin,
-              new MiniCssExtractPlugin,
-              new Dotenv({
-                path: path.resolve(__dirname, './.env')
-              }), 
-            ],
+          
+          plugins:[
+            htmlWebpackPlugin,
+            new MiniCssExtractPlugin,
+            new webpack.DefinePlugin({
+              'process.env': {
+                'API_BASE_URL': JSON.stringify(process.env.API_BASE_URL),
+              }
+            }),
+          ]
     }
     };
