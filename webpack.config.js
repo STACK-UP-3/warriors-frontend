@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+require('dotenv').config();
 
 var DIST_DIR = path.resolve(__dirname, 'dist'); // Define the distribution directory
 var SRC_DIR = path.resolve(__dirname, 'src'); // Define the source directory
@@ -10,15 +12,18 @@ var SRC_DIR = path.resolve(__dirname, 'src'); // Define the source directory
 const htmlWebpackPlugin = new HtmlWebpackPlugin({
   template: './public/index.html',
   filename: 'index.html',
+  favicon: "./src/assets/favicon.png",
   inject: 'body',
 });
 /* Webpack configuration setup     
 */
 
 module.exports =(env)=> {
+  console.log(env);
+  
     const isProduction = env === 'production';
     return{
-        entry: SRC_DIR + '/index.js',
+        entry: ['babel-polyfill',SRC_DIR + '/index.js'],
         output: {
           path: DIST_DIR,
           filename: 'index.bundle.js',
@@ -36,6 +41,7 @@ module.exports =(env)=> {
                          loader: "css-loader",
                          options: {
                              sourceMap: true,
+                             url: false,
                          }
                      },
                      {
@@ -70,6 +76,7 @@ module.exports =(env)=> {
                   },
                 ],
               },
+              
             ],
           },
     
@@ -78,9 +85,15 @@ module.exports =(env)=> {
           devServer: {
             historyApiFallback: true,
           },
-          plugins: [
-              htmlWebpackPlugin,
-              new MiniCssExtractPlugin, 
-            ],
+          
+          plugins:[
+            htmlWebpackPlugin,
+            new MiniCssExtractPlugin,
+            new webpack.DefinePlugin({
+              'process.env': {
+                'API_BASE_URL': JSON.stringify(process.env.API_BASE_URL),
+              }
+            }),
+          ]
     }
     };

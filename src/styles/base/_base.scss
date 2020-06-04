@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    line-height: 1.5;
+    height: 100%;
+}
+body{
+    font-family: 'Roboto',Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+.error{
+    font-size: 15px;
+    color: $errorColor;
+}
