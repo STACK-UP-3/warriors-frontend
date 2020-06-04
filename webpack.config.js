@@ -18,6 +18,8 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
 */
 
 module.exports =(env)=> {
+  console.log(env);
+  
     const isProduction = env === 'production';
     return{
         entry: ['babel-polyfill',SRC_DIR + '/index.js'],
@@ -85,7 +87,9 @@ module.exports =(env)=> {
           plugins: [
               htmlWebpackPlugin,
               new MiniCssExtractPlugin,
-              new Dotenv(), 
+              new Dotenv({
+                path: path.resolve(__dirname, './.env')
+              }), 
             ],
     }
     };
