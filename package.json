@@ -4,7 +4,7 @@
   "description": "Web application frontend built with React, for Andela Kigali Stack-Up 3",
   "private": true,
   "main": "index.js",
-  "proxy": "http://localhost:5000/",
+  "proxy": "https://warriorz-staging.herokuapp.com/api/v1",
   "scripts": {
     "test": "jest --runInBand --coverage",
     "start": "babel-node server/server.js ",
