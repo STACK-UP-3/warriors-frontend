@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the Login  component *************** Should render the login page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <_default>
+    <div
+      className="loginContainer"
+    >
+      <div
+        className="main"
+      >
+        <_default
+          subtitle={
+            <div>
+              <p>
+                If you have not created an account please sign up to use our services
+              </p>
+              <br />
+              <h4
+                onClick={[Function]}
+              >
+                sign up
+              </h4>
+            </div>
+          }
+          title="Welcome Back to BareFoot Nomad"
+        >
+          <div
+            className="sideContainer"
+          >
+            <div
+              className="background"
+            />
+            <div
+              className="content"
+            >
+              <h2>
+                Welcome Back to BareFoot Nomad
+              </h2>
+              <div>
+                <p>
+                  If you have not created an account please sign up to use our services
+                </p>
+                <br />
+                <h4
+                  onClick={[Function]}
+                >
+                  sign up
+                </h4>
+              </div>
+            </div>
+          </div>
+        </_default>
+        <div
+          className="formContainer"
+        >
+          <h1>
+             Sign in to BareFoot Nomad 
+          </h1>
+          <_default
+            isLoading={false}
+            onSubmit={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            testdata="loginForm"
+            userInfo={
+              Object {
+                "data": Object {
+                  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZnVsbE5hbWUiOiJJUkFEVUtVTkRBIEZpYWNyZSIsImVtYWlsIjoiZmlyYWR1a0B5YWhvby5jb20iLCJyb2xlIjoiUmVxdWVzdGVyIiwiaWF0IjoxNTkwNDAxOTc4LCJleHAiOjE1OTA0MTYzNzh9.K8xbzFSqSghrMzZPZ60EoSd1MylUUxp6NdehPvt9hCA",
+                },
+                "message": "You have signed in successfully",
+                "status": 200,
+              }
+            }
+          >
+            <div>
+              <form
+                className="col s12"
+                onSubmit={[Function]}
+                testdata="form"
+              >
+                <div
+                  className="form-content"
+                >
+                  <div
+                    className="row"
+                    id="textInput"
+                  >
+                    <div
+                      className="input-field col s12"
+                    >
+                      <input
+                        className="validate"
+                        disabled={false}
+                        id="email"
+                        name="Email"
+                        onChange={[Function]}
+                        testdata="inputChange"
+                        type="email"
+                      />
+                      <label
+                        htmlFor="email"
+                      >
+                        Email
+                      </label>
+                    </div>
+                  </div>
+                  <div
+                    className="row"
+                    id="textInput"
+                  >
+                    <div
+                      className="input-field col s12"
+                    >
+                      <input
+                        className="validate"
+                        disabled={false}
+                        id="password"
+                        name="Password"
+                        onChange={[Function]}
+                        type="password"
+                      />
+                      <label
+                        htmlFor="password"
+                      >
+                        Password
+                      </label>
+                    </div>
+                  </div>
+                  <div
+                    className="contentFooter"
+                  >
+                    <span
+                      id="forgotPassword"
+                      onClick={[Function]}
+                    >
+                      Forgot password?
+                    </span>
+                    <br />
+                     
+                    <br />
+                    <span
+                      className="error"
+                    />
+                  </div>
+                </div>
+                 
+                <br />
+                <div
+                  className="form-footer"
+                >
+                  <div
+                    className="submitBtn"
+                  >
+                    <button
+                      className="btn waves-effect waves-light"
+                      disabled={true}
+                      id="submit"
+                    >
+                      Login
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </_default>
+          <br />
+          <div
+            className="socialAuth"
+          >
+            <p>
+              or login with:
+            </p>
+            <div
+              className="socialAuthImg"
+            >
+              <div
+                id="google"
+              >
+                <img
+                  src="../assets/google.svg"
+                />
+              </div>
+              <div
+                id="facebook"
+              >
+                <img
+                  src="../assets/facebook.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <_default>
+        <footer
+          className="page-footer"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="footer"
+            >
+              <span>
+                © 2020 BareFoot Nomad, All rights reserved.
+              </span>
+            </div>
+          </div>
+        </footer>
+      </_default>
+    </div>
+  </_default>
+</Provider>
+`;
+
+exports[`*************** Testing the Login  component *************** should submit upon form call 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <_default
+    onSubmit={[MockFunction]}
+    userInfo={
+      Object {
+        "message": "Test message",
+      }
+    }
+  >
+    <div>
+      <form
+        className="col s12"
+        onSubmit={[Function]}
+        testdata="form"
+      >
+        <div
+          className="form-content"
+        >
+          <div
+            className="row"
+            id="textInput"
+          >
+            <div
+              className="input-field col s12"
+            >
+              <input
+                className="validate"
+                id="email"
+                name="Email"
+                onChange={[Function]}
+                testdata="inputChange"
+                type="email"
+              />
+              <label
+                htmlFor="email"
+              >
+                Email
+              </label>
+            </div>
+          </div>
+          <div
+            className="row"
+            id="textInput"
+          >
+            <div
+              className="input-field col s12"
+            >
+              <input
+                className="validate"
+                id="password"
+                name="Password"
+                onChange={[Function]}
+                type="password"
+              />
+              <label
+                htmlFor="password"
+              >
+                Password
+              </label>
+            </div>
+          </div>
+          <div
+            className="contentFooter"
+          >
+            <span
+              id="forgotPassword"
+              onClick={[Function]}
+            >
+              Forgot password?
+            </span>
+            <br />
+             
+            <br />
+            <span
+              className="error"
+            >
+              Test message
+            </span>
+          </div>
+        </div>
+         
+        <br />
+        <div
+          className="form-footer"
+        >
+          <div
+            className="submitBtn"
+          >
+            <button
+              className="btn waves-effect waves-light"
+              disabled={true}
+              id="submit"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </_default>
+</Provider>
+`;

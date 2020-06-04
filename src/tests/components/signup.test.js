@@ -4,10 +4,10 @@ import toJson from 'enzyme-to-json';
 import { Provider } from 'react-redux';
 import mockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
-import Signup from '../../components/auth/Signup';
-import SignupFormD from '../../components/auth/SignupForm';
+import SignupFormD from '../../components/SignupForm';
 import configureStore from '../../redux/configureStore';
-import { SignupForm } from '../../components/auth/SignupForm';
+import { SignupForm } from '../../components/SignupForm';
+import Signup from '../../components/signup';
 
 describe('Test <SignupForm/> Component', () => {
   const store = configureStore();

@@ -94,6 +94,7 @@ exports[`Test <SignupForm/> Component Should render the signup form correctly 1`
       <div>
         <form
           className="col s12"
+          id="signupForm"
           onSubmit={
             [MockFunction] {
               "calls": Array [
@@ -233,6 +234,7 @@ exports[`Test <SignupForm/> Component Should render the signup form correctly 1`
                   Login
                 </a>
               </p>
+              <br />
             </div>
           </div>
           <div

@@ -1,14 +1,18 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import toJson from 'enzyme-to-json';
+import { mount } from 'enzyme';
+import { Provider } from 'react-redux';
+import Home from '../../components/home';
+import configureStore from '../../redux/configureStore';
 
-import { Home } from '../../components/Home';
+describe('*************** Testing the Home  component ***************',()=>{
+    const store = configureStore();
 
-describe('Test <Home/> Component', () => {
-  const home = shallow(<Home />);
-  it('Should render Home component', () => {
-    expect(home.length).toBe(1);
-    expect(toJson(home)).toMatchSnapshot();
-    expect(home.find('a').length).toBe(2);
-  });
+    it('Should render the Home page correctly', ()=>{
+        const wrapper = mount( 
+            <Provider store={ store }> 
+                <Home  /> 
+            </Provider>
+        );
+        expect(wrapper).toMatchSnapshot();
+    });
 });

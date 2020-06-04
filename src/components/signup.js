@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SignupForm from './SignupForm';
-import SideContainer from './SideContainer';
-import Footer from '../common/Footer';
+import SideContainer from './sideContainer';
+import Footer from './footer';
 
 const signupTitle = 'Welcome to BareFoot Nomad';
 const signupSubTitle = (
@@ -13,29 +13,35 @@ const signupSubTitle = (
   </div>
 );
 
-export class Signup extends Component {
+class Signup extends Component {
   render() {
     return (
       <div className='signupContainer'>
         <div className='main'>
           <SideContainer title={signupTitle} subtitle={signupSubTitle} />
+
           <div className='formContainer'>
-            <h4 className='center'> Sign up to BareFoot Nomad </h4>
-            <br></br>
+            <h1> Sign up to BareFoot Nomad </h1>
+
             <SignupForm testdata='signupForm' />
-            <br></br>
-            <p className='center-align'>Or Signup with:</p>
-            <br></br>
-            <div className='socialAuth container center'>
-              <a href=''>
-                <img id='google' src='../assets/google.svg' />
-              </a>
-              <a href=''>
-                <img id='facebook' src='../assets/facebook.png' />
-              </a>
+
+            <br />
+
+            <div className='socialAuth'>
+              <p>Or Signup with:</p>
+
+              <div className='socialAuthImg'>
+                <div id='google'>
+                  <img src='../assets/google.svg' />
+                </div>
+                <div id='facebook'>
+                  <img src='../assets/facebook.png' />
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
         <Footer />
       </div>
     );

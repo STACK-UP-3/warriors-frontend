@@ -13,8 +13,19 @@ exports[`Test <AppRoute/> componet Should render AppRoute 1`] = `
       />
       <Route
         component={[Function]}
-        exact={true}
+        path="/dashboard"
+      />
+      <Route
+        component={[Function]}
+        path="/login"
+      />
+      <Route
+        component={[Function]}
         path="/signup"
+      />
+      <Route
+        component={[Function]}
+        path="/reset"
       />
     </Switch>
   </div>

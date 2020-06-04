@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { onSignup } from '../../redux/actions/signupAction';
+import { onSignup } from '../redux/actions/signupAction';
 import SyncLoader from 'react-spinners/SyncLoader';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -30,6 +30,9 @@ export class SignupForm extends Component {
     };
     await this.props.signupProcess(signupData);
     toast.info(this.props.signup.message);
+    this.props.signup.error
+      ? null
+      : document.getElementById('signupForm').reset();
   };
 
   onCloseToast = () => {
@@ -40,6 +43,7 @@ export class SignupForm extends Component {
     return (
       <div>
         <form
+          id='signupForm'
           className='col s12'
           testdata='signupForm'
           onSubmit={this.handleSignup}>
@@ -121,6 +125,7 @@ export class SignupForm extends Component {
               <p>
                 Have an account already? <a href='/login'>Login</a>
               </p>
+              <br></br>
             </div>
           </div>
 

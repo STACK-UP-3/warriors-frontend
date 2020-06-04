@@ -10,9 +10,9 @@ exports[`*************** Testing the SideContainer  component *************** Sh
   <div
     className="content"
   >
-    <h3>
+    <h2>
       Welcome to BR
-    </h3>
+    </h2>
     signup here
   </div>
 </div>
