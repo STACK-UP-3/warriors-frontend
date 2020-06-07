@@ -1,9 +1,12 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
 .page-footer{
     background-color: $baseBlue;
     text-align: center;
-    height: 10vh;
-
-    @media(max-width: 500px) {
-        height: 20vh;
-    }
+    margin-top:auto;
+    line-height: 5rem;
 }

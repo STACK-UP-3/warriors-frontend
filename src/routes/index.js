@@ -5,7 +5,7 @@ import Dashboard from '../components/dashboard';
 import ResetPassword from '../components/resetPassword';
 import Login from '../components/login';
 import Signup from '../components/signup';
-
+import Profile from '../components/profile';
 
 const AppRoute = () => {
   return (
@@ -17,6 +17,7 @@ const AppRoute = () => {
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
           <Route path="/reset" component={ResetPassword} />
+          <Route path="/profile" component={Profile} />
         </Switch>
       </div>
     </BrowserRouter>
