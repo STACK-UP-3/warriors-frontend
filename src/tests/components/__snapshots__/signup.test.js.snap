@@ -45,14 +45,22 @@ exports[`Test <SignupForm/> Component Should render signup page 1`] = `
             id="google"
           >
             <img
-              src="../assets/google.svg"
+              src={
+                Object {
+                  "process": [Function],
+                }
+              }
             />
           </div>
           <div
             id="facebook"
           >
             <img
-              src="../assets/facebook.png"
+              src={
+                Object {
+                  "process": [Function],
+                }
+              }
             />
           </div>
         </div>
@@ -222,6 +230,182 @@ exports[`Test <SignupForm/> Component Should render the signup form correctly 1`
                   className="Toastify"
                 />
               </ToastContainer>
+              <p>
+                Have an account already? 
+                <a
+                  href="/login"
+                >
+                  Login
+                </a>
+              </p>
+              <br />
+            </div>
+          </div>
+          <div
+            className="form-footer"
+          >
+            <div
+              className="submitBtn"
+            >
+              <button
+                className="btn waves-effect waves-light"
+                disabled={true}
+                id="submit"
+                type="submit"
+              >
+                Signup
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </SignupForm>
+  </Connect(SignupForm)>
+</Provider>
+`;
+
+exports[`Test <SignupForm/> Component Should render the signup form correctly with error 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(SignupForm)>
+    <SignupForm
+      signup={
+        Object {
+          "error": "error",
+          "loading": false,
+          "message": "",
+        }
+      }
+      signupProcess={[Function]}
+    >
+      <div>
+        <form
+          className="col s12"
+          id="signupForm"
+          onSubmit={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": Promise {},
+                },
+              ],
+            }
+          }
+          testdata="signupForm"
+        >
+          <div
+            className="form-content"
+          >
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <input
+                  className="validate"
+                  id="firstname"
+                  name="firstname"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="firstname"
+                >
+                  First Name
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="lastname"
+                  name="lastname"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="lastname"
+                >
+                  Last Name
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="email"
+                  name="email"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="email"
+                />
+                <label
+                  htmlFor="email"
+                >
+                  Email
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="password"
+                  name="password"
+                  onChange={[Function]}
+                  type="password"
+                />
+                <label
+                  htmlFor="password"
+                >
+                  Password
+                </label>
+              </div>
+            </div>
+            <div
+              className="contentFooter"
+            >
+              <p
+                className="error"
+              />
               <p>
                 Have an account already? 
                 <a

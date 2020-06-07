@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the SideMenu component *************** Should render the Trip request component correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        "/trips/oneway",
+      ]
+    }
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "po2gnj",
+              "pathname": "/trips/oneway",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "po2gnj",
+            "pathname": "/trips/oneway",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default>
+        <div
+          className="sideMenuContainer"
+        >
+          <div
+            className="profile"
+          >
+            <img
+              src={
+                Object {
+                  "process": [Function],
+                }
+              }
+            />
+             
+            <a
+              className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+            >
+              <i
+                className="large material-icons indigo-text darken-4"
+              >
+                mode_edit
+              </i>
+            </a>
+          </div>
+          <div
+            className="menu"
+          >
+            <Link
+              className="menuItem black-text sidenav-close"
+              to="/dashboard"
+            >
+              <LinkAnchor
+                className="menuItem black-text sidenav-close"
+                href="/dashboard"
+                navigate={[Function]}
+              >
+                <a
+                  className="menuItem black-text sidenav-close"
+                  href="/dashboard"
+                  onClick={[Function]}
+                >
+                  <h6>
+                    Dashboard
+                  </h6>
+                  <i
+                    className="material-icons"
+                  >
+                    pie_chart
+                  </i>
+                </a>
+              </LinkAnchor>
+            </Link>
+            <Link
+              className="activeMenuItem black-text sidenav-close"
+              to="/trips/oneway"
+            >
+              <LinkAnchor
+                className="activeMenuItem black-text sidenav-close"
+                href="/trips/oneway"
+                navigate={[Function]}
+              >
+                <a
+                  className="activeMenuItem black-text sidenav-close"
+                  href="/trips/oneway"
+                  onClick={[Function]}
+                >
+                  <h6>
+                    Make trip request
+                  </h6>
+                  <i
+                    className="material-icons"
+                  >
+                    airplanemode_active
+                  </i>
+                </a>
+              </LinkAnchor>
+            </Link>
+            <Link
+              className="menuItem black-text sidenav-close"
+              to="/viewtrips/accepted"
+            >
+              <LinkAnchor
+                className="menuItem black-text sidenav-close"
+                href="/viewtrips/accepted"
+                navigate={[Function]}
+              >
+                <a
+                  className="menuItem black-text sidenav-close"
+                  href="/viewtrips/accepted"
+                  onClick={[Function]}
+                >
+                  <h6>
+                    My Trips
+                  </h6>
+                  <i
+                    className="material-icons"
+                  >
+                    card_travel
+                  </i>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </div>
+        </div>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`*************** Testing the SideMenu component *************** Should render the dashboard component correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        "/dashboard",
+      ]
+    }
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "6tsk7b",
+              "pathname": "/dashboard",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "6tsk7b",
+            "pathname": "/dashboard",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default>
+        <div
+          className="sideMenuContainer"
+        >
+          <div
+            className="profile"
+          >
+            <img
+              src={
+                Object {
+                  "process": [Function],
+                }
+              }
+            />
+             
+            <a
+              className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+            >
+              <i
+                className="large material-icons indigo-text darken-4"
+              >
+                mode_edit
+              </i>
+            </a>
+          </div>
+          <div
+            className="menu"
+          >
+            <Link
+              className="activeMenuItem black-text sidenav-close"
+              to="/dashboard"
+            >
+              <LinkAnchor
+                className="activeMenuItem black-text sidenav-close"
+                href="/dashboard"
+                navigate={[Function]}
+              >
+                <a
+                  className="activeMenuItem black-text sidenav-close"
+                  href="/dashboard"
+                  onClick={[Function]}
+                >
+                  <h6>
+                    Dashboard
+                  </h6>
+                  <i
+                    className="material-icons"
+                  >
+                    pie_chart
+                  </i>
+                </a>
+              </LinkAnchor>
+            </Link>
+            <Link
+              className="menuItem black-text sidenav-close"
+              to="/trips/oneway"
+            >
+              <LinkAnchor
+                className="menuItem black-text sidenav-close"
+                href="/trips/oneway"
+                navigate={[Function]}
+              >
+                <a
+                  className="menuItem black-text sidenav-close"
+                  href="/trips/oneway"
+                  onClick={[Function]}
+                >
+                  <h6>
+                    Make trip request
+                  </h6>
+                  <i
+                    className="material-icons"
+                  >
+                    airplanemode_active
+                  </i>
+                </a>
+              </LinkAnchor>
+            </Link>
+            <Link
+              className="menuItem black-text sidenav-close"
+              to="/viewtrips/accepted"
+            >
+              <LinkAnchor
+                className="menuItem black-text sidenav-close"
+                href="/viewtrips/accepted"
+                navigate={[Function]}
+              >
+                <a
+                  className="menuItem black-text sidenav-close"
+                  href="/viewtrips/accepted"
+                  onClick={[Function]}
+                >
+                  <h6>
+                    My Trips
+                  </h6>
+                  <i
+                    className="material-icons"
+                  >
+                    card_travel
+                  </i>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </div>
+        </div>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;

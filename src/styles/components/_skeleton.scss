@@ -1,0 +1,20 @@
+.collectionSkeleton {
+    text-align: center;
+    padding: 0vh 20px;
+    margin-top: 13px;
+}
+
+#skeletonListTitle{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30%;
+    width:300px;
+    
+    @media (max-width:500px) {
+        margin-left: 20%;
+        text-align: center;
+        width: 180px;
+    }
+}

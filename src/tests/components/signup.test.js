@@ -1,6 +1,5 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import toJson from 'enzyme-to-json';
 import { Provider } from 'react-redux';
 import mockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
@@ -39,6 +38,32 @@ describe('Test <SignupForm/> Component', () => {
     expect(wrapper).toMatchSnapshot();
     expect(handleSubmit).toHaveBeenLastCalledWith();
   });
+  
+  it('Should render the signup form correctly with error', () => {
+    const store = mockStore([thunk])({
+      signup: {
+        loading: false,
+        error: 'error',
+        message: '',
+      },
+    });
+
+    const wrapper = mount(
+      <Provider store={store}>
+        <SignupFormD />
+      </Provider>,
+    );
+
+    const handleSubmit = jest.spyOn(
+      wrapper.find('[testdata="signupForm"]').props(),
+      'onSubmit',
+    );
+    wrapper.find('[testdata="signupForm"]').props().onSubmit();
+    expect(wrapper).toMatchSnapshot();
+    expect(handleSubmit).toHaveBeenLastCalledWith();
+  });
+
+
 
   it('Should test form inputs on change', () => {
     const testState = { email: 'aaa@bbbb.ccc', password: 'jjjjjjj' };
@@ -84,8 +109,26 @@ describe('Test <SignupForm/> Component', () => {
   });
 
   it('Should handle signup process', () => {
-    const signup = shallow(
+    const signup = mount(
       <SignupForm signupProcess={jest.fn()} signup={{ loading: false }} />,
+    );
+    const env = {
+      preventDefault: jest.fn(),
+    };
+    const instance = signup.instance();
+    instance.setState({
+      firstname: 'first',
+      lastname: 'lassr',
+      email: 'email@yahoo.com',
+      password: 'password123',
+    });
+    instance.handleSignup(env);
+    instance.onCloseToast();
+  });
+  
+  it('Should handle signup process loading', () => {
+    const signup = mount(
+      <SignupForm signupProcess={jest.fn()} signup={{ loading: true}} />,
     );
     const env = {
       preventDefault: jest.fn(),

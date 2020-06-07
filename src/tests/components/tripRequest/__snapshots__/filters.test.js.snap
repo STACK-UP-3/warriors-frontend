@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the Filters  component *************** Should render the filters component correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "REPLACE",
+        "block": [MockFunction],
+        "createHref": [MockFunction],
+        "go": [MockFunction],
+        "goBack": [MockFunction],
+        "goForward": [MockFunction],
+        "length": 0,
+        "listen": [MockFunction] {
+          "calls": Array [
+            Array [
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "location": Object {
+          "hash": "",
+          "pathname": "",
+          "search": "",
+          "state": "",
+        },
+        "push": [MockFunction],
+        "replace": [MockFunction],
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+        "pathname": "/viewtrips/accepted",
+        "search": "",
+        "state": "",
+      }
+    }
+  >
+    <_default
+      statusChange={[MockFunction]}
+    >
+      <div
+        className="filtersList"
+      >
+        <div
+          className="filterListItem"
+          id="accepted"
+          onClick={[Function]}
+        >
+          <img
+            alt="accepted"
+            id="accepted"
+            src={
+              Object {
+                "process": [Function],
+              }
+            }
+          />
+        </div>
+        <div
+          className="filterListItem"
+          id="pending"
+          onClick={[Function]}
+        >
+          <img
+            alt="pending"
+            id="pending"
+            src={
+              Object {
+                "process": [Function],
+              }
+            }
+          />
+        </div>
+        <div
+          className="filterListItem"
+          id="rejected"
+          onClick={[Function]}
+        >
+          <img
+            alt="rejected"
+            id="rejected"
+            src={
+              Object {
+                "process": [Function],
+              }
+            }
+          />
+        </div>
+      </div>
+    </_default>
+  </Router>
+</Provider>
+`;

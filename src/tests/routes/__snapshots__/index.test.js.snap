@@ -29,6 +29,18 @@ exports[`test render routes correctly 1`] = `
       />
       <Route
         component={[Function]}
+        path="/viewtrips"
+      />
+      <Route
+        component={[Function]}
+        path="/viewtrip/:id"
+      />
+      <Route
+        component={[Function]}
+        path="/edit/:id"
+      />
+      <Route
+        component={[Function]}
         path="/trips/oneway"
       />
     </Switch>

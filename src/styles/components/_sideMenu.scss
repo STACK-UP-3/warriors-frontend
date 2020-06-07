@@ -1,0 +1,71 @@
+.fixed-sidebar{
+	width: 50%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	box-shadow: $rightShadow;
+	
+	@media (max-height:800px) {
+		height: 82vh;
+	}
+	
+	@media (max-height:700px) {
+		height: 80.3vh;
+	}
+}
+.sideMenuContainer {
+	padding-top: 5vh;
+	.profile {
+	  img {
+		height: 130px;
+		border-radius: 50%;
+	  }
+	  a {
+		position: relative;
+		margin-left: -10px;
+		margin-top: -60px;
+	  }
+	}
+	.menu {
+	  margin-top: 20px;
+	  .menuItem {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		vertical-align: middle;
+		margin-top: 10px;
+		padding: 10px 10px;
+		height: 100%;
+		border: 1px solid $lightBlue;
+		box-sizing: border-box;
+		
+		i {
+		  margin-top: 10px;
+		  color: $baseBlue;
+		}
+	  }
+	  
+	  .activeMenuItem{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		vertical-align: middle;
+		margin-top: 10px;
+		padding: 10px 10px;
+		background: $lightBlue;
+		border: 1px solid $lightBlue;
+		box-sizing: border-box;
+		box-shadow: $bottomShadow;
+		
+		i {
+		  margin-top: 10px;
+		  color: $baseBlue;
+		}
+		
+	  }
+	}
+	.menu .menuItem:hover {
+	  background: $lightBlue;
+	  cursor: pointer;
+	}
+  }

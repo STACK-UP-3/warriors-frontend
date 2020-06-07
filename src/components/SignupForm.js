@@ -167,6 +167,7 @@ SignupForm.propTypes = {
 };
 
 const mapStateToProps = (response) => ({ signup: response.signup });
+/* istanbul ignore next */
 const mapDispatchToProps = (dispatch) => ({
   signupProcess: (signupData) => dispatch(onSignup(signupData)),
 });

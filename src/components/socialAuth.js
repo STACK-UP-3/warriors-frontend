@@ -1,4 +1,6 @@
 import React from 'react';
+import googleImg from '../assets/google.svg';
+import facebookImg from '../assets/facebook.png';
 
 const SocialAuth = () => {
     
@@ -12,10 +14,10 @@ const SocialAuth = () => {
 
             <div className='socialAuthImg'>
                 <div id='google' onClick={()=>handlerClick('google')}>
-                    <img  src="../assets/google.svg" />
+                    <img  src={googleImg} />
                 </div>
                 <div id='facebook' onClick={()=>handlerClick('facebook')}>
-                    <img  src="../assets/facebook.png" />
+                    <img  src={facebookImg} />
                 </div>
             </div>
             

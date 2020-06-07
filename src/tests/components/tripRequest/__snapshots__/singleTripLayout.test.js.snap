@@ -1,0 +1,1325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the SingleTripLayout  component *************** Should Test bad trip_id input 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "64mfac",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "64mfac",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default
+        match={
+          Object {
+            "params": Object {
+              "id": 1,
+            },
+          }
+        }
+      >
+        <_default
+          title={1}
+        >
+          <div>
+            <h1>
+              404: Can not Find The item 
+              1
+            </h1>
+            <p>
+              The requested Item can not be found in our database.
+            </p>
+          </div>
+        </_default>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`*************** Testing the SingleTripLayout  component *************** Should Test when the searched trip is not found in the Backend 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "0cz1z0",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "0cz1z0",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default
+        match={
+          Object {
+            "params": Object {
+              "id": 1,
+            },
+          }
+        }
+      >
+        <_default
+          title={1}
+        >
+          <div>
+            <h1>
+              404: Can not Find The item 
+              1
+            </h1>
+            <p>
+              The requested Item can not be found in our database.
+            </p>
+          </div>
+        </_default>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`*************** Testing the SingleTripLayout  component *************** Should render the SingleTripLayout page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "25hyln",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "25hyln",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default
+        match={
+          Object {
+            "params": Object {
+              "id": 1,
+            },
+          }
+        }
+      >
+        <div
+          className="singleTripLayout"
+        >
+          <NavBar>
+            <header>
+              <nav
+                className="navbar"
+              >
+                <div
+                  className="nav-wrapper"
+                >
+                  <a
+                    className="sidenav-trigger show-on-med-and-down left"
+                    data-target="slide-out"
+                    href="#"
+                  >
+                    <i
+                      className="material-icons"
+                    >
+                      menu
+                    </i>
+                  </a>
+                  <a
+                    className="brand-logo"
+                    href="#"
+                  >
+                    <img
+                      className="responsive-img"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </a>
+                  <ul
+                    className="right hide-on-med-and-down"
+                    id="nav-mobile"
+                  >
+                    <li>
+                      <a
+                        href="/dashboard"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          home
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/notifications"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          notifications
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/account"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          account_circle
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          </NavBar>
+          <main>
+            <div
+              className="sideMenu"
+            >
+              <div
+                className="fixed-sidebar container center hide-on-med-and-down"
+              >
+                <_default>
+                  <div
+                    className="sideMenuContainer"
+                  >
+                    <div
+                      className="profile"
+                    >
+                      <img
+                        src={
+                          Object {
+                            "process": [Function],
+                          }
+                        }
+                      />
+                       
+                      <a
+                        className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                      >
+                        <i
+                          className="large material-icons indigo-text darken-4"
+                        >
+                          mode_edit
+                        </i>
+                      </a>
+                    </div>
+                    <div
+                      className="menu"
+                    >
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/dashboard"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/dashboard"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/dashboard"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Dashboard
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              pie_chart
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/trips/oneway"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/trips/oneway"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/trips/oneway"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Make trip request
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              airplanemode_active
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="activeMenuItem black-text sidenav-close"
+                        to="/viewtrips/accepted"
+                      >
+                        <LinkAnchor
+                          className="activeMenuItem black-text sidenav-close"
+                          href="/viewtrips/accepted"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="activeMenuItem black-text sidenav-close"
+                            href="/viewtrips/accepted"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              My Trips
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              card_travel
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </div>
+                  </div>
+                </_default>
+              </div>
+              <div
+                className="show-on-med-and-down container center"
+              >
+                <mobileSidebar>
+                  <div>
+                    <div
+                      className="sidenav"
+                      id="slide-out"
+                    >
+                      <_default>
+                        <div
+                          className="sideMenuContainer"
+                        >
+                          <div
+                            className="profile"
+                          >
+                            <img
+                              src={
+                                Object {
+                                  "process": [Function],
+                                }
+                              }
+                            />
+                             
+                            <a
+                              className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                            >
+                              <i
+                                className="large material-icons indigo-text darken-4"
+                              >
+                                mode_edit
+                              </i>
+                            </a>
+                          </div>
+                          <div
+                            className="menu"
+                          >
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/dashboard"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/dashboard"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/dashboard"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Dashboard
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    pie_chart
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/trips/oneway"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/trips/oneway"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/trips/oneway"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Make trip request
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    airplanemode_active
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="activeMenuItem black-text sidenav-close"
+                              to="/viewtrips/accepted"
+                            >
+                              <LinkAnchor
+                                className="activeMenuItem black-text sidenav-close"
+                                href="/viewtrips/accepted"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="activeMenuItem black-text sidenav-close"
+                                  href="/viewtrips/accepted"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    My Trips
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </div>
+                        </div>
+                      </_default>
+                    </div>
+                  </div>
+                </mobileSidebar>
+              </div>
+            </div>
+            <div
+              className="mainTripContent"
+            >
+              <_default
+                accommodation={
+                  Object {
+                    "data": Object {
+                      "data": Object {
+                        "data": Object {
+                          "cost": "$78",
+                          "createdAt": "2020-06-15",
+                          "description": null,
+                          "id": 1,
+                          "images": Array [
+                            Object {
+                              "details": "Back view of accommodation",
+                              "id": 2,
+                              "url": "https://res.cloudinary.com/dcna45id5/image/upload/v1586427877/samples/landscapes/nature-mountains.jpg",
+                            },
+                          ],
+                          "location": "Kigali",
+                          "name": "Panter Hotel",
+                          "owner": "Robert",
+                          "rooms": Array [
+                            Object {},
+                          ],
+                          "services": Array [
+                            Object {
+                              "cost": "$54",
+                              "description": null,
+                              "id": 1,
+                              "name": "service1",
+                            },
+                          ],
+                          "status": "available",
+                          "updatedAt": "2020-06-15",
+                        },
+                        "message": "Accommodation retrieved successfully",
+                        "status": 200,
+                      },
+                    },
+                    "status": 200,
+                    "statusText": "OK",
+                  }
+                }
+                information={
+                  Object {
+                    "email": "testingUser@single.trip",
+                    "manager": "TESTING Manager",
+                    "name": "TESTING User",
+                    "result": Object {
+                      "createdAt": " 2020-06-12",
+                      "id": 2,
+                      "line_manager_id": 2,
+                      "status": "pending",
+                      "tripRequest": Array [
+                        Object {
+                          "accommodation_id": 1,
+                          "destination": "destination city",
+                          "origin": "origin city",
+                          "travelReason": "managerTest",
+                          "type": "one-way-trip",
+                        },
+                      ],
+                      "trip_id": 2,
+                      "updatedAt": " 2020-06-12",
+                      "user_id": 1,
+                    },
+                  }
+                }
+              >
+                <div
+                  className="tripInformation"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="backToTrips"
+                      onClick={[Function]}
+                    >
+                       
+                      <i
+                        className="material-icons"
+                      >
+                        arrow_back
+                      </i>
+                       Back to trips
+                    </div>
+                    <button
+                      className="btn waves-effect waves-light"
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                       EDIT TRIP REQUEST 
+                    </button>
+                  </div>
+                  <h5
+                    className="title"
+                  >
+                    Trip Number:
+                    2
+                  </h5>
+                  <div
+                    className="content"
+                  >
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Name: 
+                      </span>
+                          
+                      <b>
+                        TESTING User
+                      </b>
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Email: 
+                      </span>
+                          
+                      <b>
+                        testingUser@single.trip
+                      </b>
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        From: 
+                      </span>
+                          
+                      <b>
+                        origin city
+                      </b>
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        To:
+                      </span>
+                          
+                      <b>
+                        destination city
+                      </b>
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Date of Travel:
+                      </span>
+                          
+                      <b />
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Manager: 
+                      </span>
+                          
+                      <b>
+                        TESTING Manager
+                      </b>
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Travel Reason: 
+                      </span>
+                          
+                      <b>
+                        managerTest
+                      </b>
+                    </div>
+                    <div
+                      className="accommodation"
+                    >
+                      <span
+                        className="infoRow"
+                      >
+                        Accomodation
+                      </span>
+                      <div
+                        className="accommodationRow"
+                      >
+                        <div
+                          className="accommodationImg"
+                        >
+                          <img
+                            alt="hotel picture"
+                          />
+                        </div>
+                        <div
+                          className="accomodationDetails"
+                        >
+                          <div
+                            className="title"
+                          >
+                            <b>
+                              Hotel Name
+                            </b>
+                          </div>
+                          <div
+                            className="serviceDetails"
+                          >
+                            <b>
+                              serviceName
+                            </b>
+                            <span>
+                              Cost: 
+                              $0.0
+                            </span>
+                          </div>
+                          <div
+                            className="description"
+                          >
+                            Simple Description
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </_default>
+            </div>
+          </main>
+          <_default>
+            <footer
+              className="page-footer"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="footer"
+                >
+                  <span>
+                    © 2020 BareFoot Nomad, All rights reserved.
+                  </span>
+                </div>
+              </div>
+            </footer>
+          </_default>
+        </div>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`*************** Testing the SingleTripLayout  component *************** Should test Backend connection Error 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "ra1wcm",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "ra1wcm",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default
+        match={
+          Object {
+            "params": Object {
+              "id": 1,
+            },
+          }
+        }
+      >
+        <div
+          className="singleTripLayout"
+        >
+          <NavBar>
+            <header>
+              <nav
+                className="navbar"
+              >
+                <div
+                  className="nav-wrapper"
+                >
+                  <a
+                    className="sidenav-trigger show-on-med-and-down left"
+                    data-target="slide-out"
+                    href="#"
+                  >
+                    <i
+                      className="material-icons"
+                    >
+                      menu
+                    </i>
+                  </a>
+                  <a
+                    className="brand-logo"
+                    href="#"
+                  >
+                    <img
+                      className="responsive-img"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </a>
+                  <ul
+                    className="right hide-on-med-and-down"
+                    id="nav-mobile"
+                  >
+                    <li>
+                      <a
+                        href="/dashboard"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          home
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/notifications"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          notifications
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/account"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          account_circle
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          </NavBar>
+          <main>
+            <div
+              className="sideMenu"
+            >
+              <div
+                className="fixed-sidebar container center hide-on-med-and-down"
+              >
+                <_default>
+                  <div
+                    className="sideMenuContainer"
+                  >
+                    <div
+                      className="profile"
+                    >
+                      <img
+                        src={
+                          Object {
+                            "process": [Function],
+                          }
+                        }
+                      />
+                       
+                      <a
+                        className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                      >
+                        <i
+                          className="large material-icons indigo-text darken-4"
+                        >
+                          mode_edit
+                        </i>
+                      </a>
+                    </div>
+                    <div
+                      className="menu"
+                    >
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/dashboard"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/dashboard"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/dashboard"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Dashboard
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              pie_chart
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/trips/oneway"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/trips/oneway"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/trips/oneway"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Make trip request
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              airplanemode_active
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="activeMenuItem black-text sidenav-close"
+                        to="/viewtrips/accepted"
+                      >
+                        <LinkAnchor
+                          className="activeMenuItem black-text sidenav-close"
+                          href="/viewtrips/accepted"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="activeMenuItem black-text sidenav-close"
+                            href="/viewtrips/accepted"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              My Trips
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              card_travel
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </div>
+                  </div>
+                </_default>
+              </div>
+              <div
+                className="show-on-med-and-down container center"
+              >
+                <mobileSidebar>
+                  <div>
+                    <div
+                      className="sidenav"
+                      id="slide-out"
+                    >
+                      <_default>
+                        <div
+                          className="sideMenuContainer"
+                        >
+                          <div
+                            className="profile"
+                          >
+                            <img
+                              src={
+                                Object {
+                                  "process": [Function],
+                                }
+                              }
+                            />
+                             
+                            <a
+                              className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                            >
+                              <i
+                                className="large material-icons indigo-text darken-4"
+                              >
+                                mode_edit
+                              </i>
+                            </a>
+                          </div>
+                          <div
+                            className="menu"
+                          >
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/dashboard"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/dashboard"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/dashboard"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Dashboard
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    pie_chart
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/trips/oneway"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/trips/oneway"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/trips/oneway"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Make trip request
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    airplanemode_active
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="activeMenuItem black-text sidenav-close"
+                              to="/viewtrips/accepted"
+                            >
+                              <LinkAnchor
+                                className="activeMenuItem black-text sidenav-close"
+                                href="/viewtrips/accepted"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="activeMenuItem black-text sidenav-close"
+                                  href="/viewtrips/accepted"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    My Trips
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </div>
+                        </div>
+                      </_default>
+                    </div>
+                  </div>
+                </mobileSidebar>
+              </div>
+            </div>
+            <div
+              className="mainTripContent"
+            >
+              <_default
+                information={Object {}}
+              >
+                <div
+                  className="tripInformation"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="backToTrips"
+                      onClick={[Function]}
+                    >
+                       
+                      <i
+                        className="material-icons"
+                      >
+                        arrow_back
+                      </i>
+                       Back to trips
+                    </div>
+                    <button
+                      className="btn waves-effect waves-light"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                       EDIT TRIP REQUEST 
+                    </button>
+                  </div>
+                  <h5
+                    className="title"
+                  >
+                    Trip Number:
+                  </h5>
+                  <div
+                    className="content"
+                  >
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Name: 
+                      </span>
+                          
+                      <b />
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Email: 
+                      </span>
+                          
+                      <b />
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        From: 
+                      </span>
+                          
+                      <b />
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        To:
+                      </span>
+                          
+                      <b />
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Date of Travel:
+                      </span>
+                          
+                      <b />
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Manager: 
+                      </span>
+                          
+                      <b />
+                    </div>
+                    <div
+                      className="infoRow"
+                    >
+                      <span>
+                        Travel Reason: 
+                      </span>
+                          
+                      <b />
+                    </div>
+                    <div
+                      className="accommodation"
+                    >
+                      <span
+                        className="infoRow"
+                      >
+                        Accomodation
+                      </span>
+                      <div
+                        className="accommodationRow"
+                      >
+                        <div
+                          className="accommodationImg"
+                        >
+                          <img
+                            alt="hotel picture"
+                          />
+                        </div>
+                        <div
+                          className="accomodationDetails"
+                        >
+                          <div
+                            className="title"
+                          >
+                            <b>
+                              Hotel Name
+                            </b>
+                          </div>
+                          <div
+                            className="serviceDetails"
+                          >
+                            <b>
+                              serviceName
+                            </b>
+                            <span>
+                              Cost: 
+                              $0.0
+                            </span>
+                          </div>
+                          <div
+                            className="description"
+                          >
+                            Simple Description
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </_default>
+            </div>
+          </main>
+          <_default>
+            <footer
+              className="page-footer"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="footer"
+                >
+                  <span>
+                    © 2020 BareFoot Nomad, All rights reserved.
+                  </span>
+                </div>
+              </div>
+            </footer>
+          </_default>
+        </div>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;

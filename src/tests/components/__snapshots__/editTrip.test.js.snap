@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the EditTrip  component *************** Should render the EditTrip page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <_default
+    match={
+      Object {
+        "params": Object {
+          "id": 1,
+        },
+      }
+    }
+  >
+    <div>
+      <h5>
+        Lets EDIT TRIP REQUEST : 
+        1
+      </h5>
+    </div>
+  </_default>
+</Provider>
+`;

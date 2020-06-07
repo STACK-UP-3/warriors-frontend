@@ -5,7 +5,7 @@ exports[`Test <create onway trip/> Component Should render component correctly 1
   <div
     className="onewayTripContainer"
   >
-    <_default />
+    <NavBar />
     <div
       className="fixed-sidebar container center hide-on-med-and-down"
     >

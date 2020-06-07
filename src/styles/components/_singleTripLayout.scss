@@ -1,0 +1,112 @@
+.mainTripContent{
+    margin-left: -49%;
+    padding: 1vh 5%;
+    height: 100vh;
+    
+    @media (max-width: 993px) {
+        margin-left: 0;
+        }
+    @media (max-height:800px) {
+        height: 82vh;
+        }
+        
+    @media (max-height:700px) {
+        height: 80.3vh;
+        }
+    @media (max-width:500px) {
+        height: 130vh;
+        }
+}
+
+
+.tripInformation{
+    margin: 0vh 3%;
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .backToTrips{
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            flex-direction: row;
+            padding: 7px 10px;
+            margin: 0px;
+            background-color: $lightBlue;
+        }
+        
+        @media (max-width:500px) {
+            h5{
+                font-size: 20px;
+            }
+            .btn{
+                width: 100px;
+                font-size: 14px;
+            }
+            
+        }
+    }
+    
+    .infoRow{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 3px;
+        
+        span{
+            width: 70%;
+        }
+        b{
+            margin-left: -20%;
+        }
+        @media (max-width:500px) {
+            span{
+                width: 90%;
+            }
+            b{
+                margin-left: -15%;
+                font-size: 15px;
+            } 
+        }
+    }
+    
+    .accommodation{
+        .accommodationRow{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            background-color: $lightBlue;
+            height: 28vh;
+            padding: 2vh 3%;
+            border-radius: 5px;
+            text-align: left;
+            
+            img{
+                height: 24vh;
+                width: 90%;
+                border-radius: 10px;
+            }
+            
+            .serviceDetails{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width:500px) {
+            .accommodationRow{
+                display: grid;
+                grid-gap: 0px;
+                grid-template-columns: 1fr;
+                height: 65vh;
+                
+                .accommodationImg{
+                    img{
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                } 
+            }
+        }    
+    }
+    
+}
