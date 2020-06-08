@@ -26,6 +26,12 @@ exports[`*************** Testing the Home  component *************** Should rend
         >
           Login
         </a>
+        <a
+          className="waves-effect waves-light btn"
+          href="/signup"
+        >
+          Signup
+        </a>
       </div>
     </div>
   </Home>

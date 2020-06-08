@@ -1,9 +1,9 @@
-.page-footer{
-    background-color: $baseBlue;
-    text-align: center;
-    height: 10vh;
+.page-footer {
+  background-color: $baseBlue;
+  text-align: center;
+  height: 10vh;
 
-    @media(max-width: 500px) {
-        height: 20vh;
-    }
+  @media (max-width: 500px) {
+    height: 20vh;
+  }
 }
