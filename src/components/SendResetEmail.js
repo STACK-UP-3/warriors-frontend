@@ -1,9 +1,11 @@
 import React from "react";
-import { sendResetEmail} from "../../../redux/actions/resetPasswordAction";
+import { sendResetEmail} from "../redux/actions/resetPasswordAction";
 import { connect } from "react-redux";
+import cx from 'classnames';
+import { Link } from "react-router-dom";
 
 
-class SendResetEmail extends React.Component {
+export class SendResetEmail extends React.Component {
 
  state={
    email:'',
@@ -22,8 +24,12 @@ class SendResetEmail extends React.Component {
      }
    )
   }
-  render() {
+  handleSendEmailResetLink=()=>{
     const {email}=this.state;
+    this.props.sendResetEmail(email);
+  }
+  render() {
+
     return (
       <div className="main-reset">
         <div className="resetpasswordcontainer">
@@ -39,10 +45,13 @@ class SendResetEmail extends React.Component {
                 value={this.state.email}
               />
               <div className="div-contaier">
-                <button className="btn btn-cancel">Cancel</button>
-                <button className="btn btn-send" onClick={()=>{
-                 this.props.sendResetEmail(email)
-                }} >Send</button>
+              <Link
+                  className={cx("btn","btn-cancel")}
+                  to="/login"
+                >
+                  Cancel
+                </Link>
+                <button className="btn  waves-effect waves-light btn-send" onClick={this.handleSendEmailResetLink} >Send</button>
               </div>
             </div>
           </div>
@@ -52,7 +61,7 @@ class SendResetEmail extends React.Component {
   }
 
 }
-const mapStateToProps = ({ resetPassword: {isResetLinkSent} }) => ({
+export const mapStateToProps = ({ resetPassword: {isResetLinkSent} }) => ({
   isResetPasswordSent:isResetLinkSent
 });
 

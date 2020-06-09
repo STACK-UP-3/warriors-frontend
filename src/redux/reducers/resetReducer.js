@@ -1,7 +1,7 @@
 const initialState={
-    password:'',
-    isResetLinkSent:false
-}
+    isResetLinkSent:false,
+    isPasswordReset:false
+};
 
 export const resetReducer = (state = initialState, action) => {
     const { type, payload,password } = action;
@@ -9,7 +9,7 @@ export const resetReducer = (state = initialState, action) => {
       case "RESET_PASSWORD":
         return {
           ...state,
-          password: password,
+          isPasswordReset: payload,
         };
         case "SEND_RESET_EMAIL_ACTION":
           return {
