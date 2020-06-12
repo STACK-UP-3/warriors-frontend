@@ -33,7 +33,15 @@ exports[`test render routes correctly 1`] = `
       path="/reset"
     />
     <Route
-      component={[Function]}
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(resetpassword)",
+          "type": [Function],
+        }
+      }
       exact={true}
       path="/resetpassword"
     />
