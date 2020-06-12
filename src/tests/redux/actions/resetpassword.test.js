@@ -18,15 +18,15 @@ describe("Send reset ", () => {
     moxios.uninstall();
     store.clearActions();
   });
-
+//resetResponse.data.status
   test("Should send reset email action", async () => {
     moxios.wait(() => {
       const request = moxios.requests.mostRecent();
-      request.respondWith({ status:200,
-        response:{message:"Sent successfully"}});
+      request.respondWith({ response:{status:200,message:"Sent successfully"}});
     });
     return store.dispatch(sendResetEmail("benshidanny11@gmail.com")).then(()=>{
         expect(store.getActions().length).toEqual(1);
+        expect(store.getActions()[0].payload).toEqual(true);
     })
   });
 
@@ -34,11 +34,33 @@ describe("Send reset ", () => {
   test("Should reset password action", async () => {
     moxios.wait(() => {
       const request = moxios.requests.mostRecent();
-       request.respondWith({ status:200,
-        response:{message:"Password changed successfully!"}});
+       request.respondWith({response:{status:200,message:"Password changed successfully!"}});
     });
     return store.dispatch(resetPassword("dann123",token)).then(()=>{
         expect(store.getActions().length).toEqual(1);
+        expect(store.getActions()[0].payload).toEqual(true);
+    })
+  });
+
+  test("Should not reset password (wrong response)", async () => {
+    moxios.wait(() => {
+      const request = moxios.requests.mostRecent();
+       request.respondWith({response:{status:400,message:"Password not changed !"}});
+    });
+    return store.dispatch(resetPassword("dann123",token)).then(()=>{
+        expect(store.getActions().length).toEqual(1);
+        expect(store.getActions()[0].payload).toEqual(false);
+    })
+  });
+
+  test("Should not send link (wrong response)", async () => {
+    moxios.wait(() => {
+      const request = moxios.requests.mostRecent();
+       request.respondWith({response:{status:400,message:"Password not changed !"}});
+    });
+    return store.dispatch(sendResetEmail("benshidanny11@gmail.com")).then(()=>{
+        expect(store.getActions().length).toEqual(1);
+        expect(store.getActions()[0].payload).toEqual(false);
     })
   });
 

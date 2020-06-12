@@ -69,16 +69,7 @@ export class resetpassword extends Component {
                     className="btn waves-effect waves-light btn-send"
                     onClick={this.handleResetPasswordEvent}
                   >
-                    {this.state.isResetInProgress ? (
-                      <SyncLoader
-                        size={5}
-                        margin={5}
-                        color={"#fff"}
-                        loading={this.state.isResetInProgress}
-                      />
-                    ) : (
-                      "Reset password"
-                    )}
+                  Reset password
                   </button>
                 </div>
               </div>
