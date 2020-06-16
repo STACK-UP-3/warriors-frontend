@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-require('dotenv').config();
+require('dotenv').config()
 
 var DIST_DIR = path.resolve(__dirname, 'dist'); // Define the distribution directory
 var SRC_DIR = path.resolve(__dirname, 'src'); // Define the source directory
@@ -18,9 +18,7 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
 /* Webpack configuration setup     
 */
 
-module.exports =(env)=> {
-  console.log(env);
-  
+module.exports = (env) => {
     const isProduction = env === 'production';
     return{
         entry: ['babel-polyfill',SRC_DIR + '/index.js'],
@@ -96,4 +94,4 @@ module.exports =(env)=> {
             }),
           ]
     }
-    };
+}

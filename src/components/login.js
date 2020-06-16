@@ -3,11 +3,12 @@ import { useSelector,useDispatch } from 'react-redux';
 import M from 'materialize-css';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { onUserLogin } from '../redux/actions/loginActions';
+import { onUserLogin,TokenAuth } from '../redux/actions/loginActions';
 import LoginForm from './loginForm';
 import Footer from './footer';
 import Message from './requestFail';
 import SideContainer from './sideContainer';
+import SocialAuth from './socialAuth';
 
 toast.configure();
 
@@ -30,8 +31,26 @@ export default ()=>{
             localStorage.setItem('token', token);
             window.location.assign('/dashboard');
         } 
-    });
+
+        let token;
+        const url  = window.location.search;
+        const arr = url.split(""); 
+        arr.splice(0,7); 
+        
+        if(arr.length){
+            token = arr.join("")
+        }
+
+        if(localStorage.getItem("token")){
+            // token = localStorage.getItem("token");
+            window.location.assign("/dashboard")
+        }
+        
+
+        if(token) return tokenAuthenticator(token)
+    },[loginStore]);
     
+    const tokenAuthenticator = (token) => { dispatch(TokenAuth(token)); }
     const onFormSubmit = data => { dispatch(onUserLogin(data));  }
 
     const loginsideContainerTitle = 'Welcome Back to BareFoot Nomad';
@@ -66,23 +85,8 @@ export default ()=>{
                             testdata='loginForm' 
                         />
                             <br/>
-                        
-
-                    <div className='socialAuth'> 
-                        <p>
-                            or login with:
-                        </p> 
-
-                        <div className='socialAuthImg'>
-                            <div id='google'>
-                                <img  src="../assets/google.svg" />
-                            </div>
-                            <div id='facebook'>
-                                <img  src="../assets/facebook.png" />
-                            </div>
-                        </div>
-                        
-                    </div>
+                        <SocialAuth />
+                    
                 </div>
         </div>
 

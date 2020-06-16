@@ -186,36 +186,40 @@ exports[`*************** Testing the Login  component *************** Should ren
             </div>
           </_default>
           <br />
-          <div
-            className="socialAuth"
-          >
-            <p>
-              or login with:
-            </p>
+          <SocialAuth>
             <div
-              className="socialAuthImg"
+              className="socialAuth"
             >
+              <p>
+                or login with:
+              </p>
               <div
-                id="google"
+                className="socialAuthImg"
               >
-                <img
-                  src="../assets/google.svg"
-                />
-              </div>
-              <div
-                id="facebook"
-              >
-                <img
-                  src="../assets/facebook.png"
-                />
+                <div
+                  id="google"
+                  onClick={[Function]}
+                >
+                  <img
+                    src="../assets/google.svg"
+                  />
+                </div>
+                <div
+                  id="facebook"
+                  onClick={[Function]}
+                >
+                  <img
+                    src="../assets/facebook.png"
+                  />
+                </div>
               </div>
             </div>
-          </div>
+          </SocialAuth>
         </div>
       </div>
       <_default>
         <footer
-          className="page-footer"
+          className="page-footer blue darken-3"
         >
           <div
             className="container"

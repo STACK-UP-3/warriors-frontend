@@ -11,6 +11,10 @@
                 padding:10px;
             }
         }
+        button{
+            margin-top:5%;
+            border:2px solid rgb(2, 2, 128);
+        }
     }
 
     @media (min-width:1200px) {
@@ -20,7 +24,8 @@
     }
     @media(max-width: 900px){
         form{
-            margin-left:20%;
+            position:relative;
+            left:0%;
             .row{
                 display:grid;
                 margin: 0 auto;

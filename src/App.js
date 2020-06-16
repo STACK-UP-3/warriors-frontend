@@ -7,10 +7,12 @@ const store = configureStore();
 
 // Providing access to the store to every route, Resource: https://react-redux.js.org/introduction/quick-start
 
-const App =(
-  <Provider store= { store } >
+const App = () => {
+  return (
+    <Provider store={store}>
       <AppRoute />
-  </Provider>
-);
+    </Provider>
+  );
+};
 
-export default App; 
+export default App;

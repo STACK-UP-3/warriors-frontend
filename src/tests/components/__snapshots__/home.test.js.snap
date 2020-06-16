@@ -1,33 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`*************** Testing the Home  component *************** Should render the Home page correctly 1`] = `
-<Provider
-  store={
-    Object {
-      "dispatch": [Function],
-      "getState": [Function],
-      "replaceReducer": [Function],
-      "subscribe": [Function],
-      Symbol(Symbol.observable): [Function],
-    }
-  }
->
-  <Home>
-    <div>
-      <div
-        className="row"
-      >
-        <h1>
-          BareFoot Nomad Welcomes You!!
-        </h1>
-        <a
-          className="waves-effect waves-light btn"
-          href="/login"
-        >
-          Login
-        </a>
-      </div>
-    </div>
-  </Home>
-</Provider>
+exports[`should render the landing page correctly 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <h1>
+      BareFoot Nomad Welcomes You!!
+    </h1>
+    <a
+      className="waves-effect waves-light btn"
+      href="/login"
+    >
+      Login
+    </a>
+    <a
+      className="waves-effect waves-light btn"
+      href="/signup"
+    >
+      Signup
+    </a>
+  </div>
+</div>
 `;

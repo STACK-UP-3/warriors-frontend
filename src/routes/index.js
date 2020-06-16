@@ -10,7 +10,7 @@ import Profile from '../components/profile';
 const AppRoute = () => {
   return (
     <BrowserRouter>
-      <div className="app">
+      <div className='app'>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/dashboard" component={Dashboard} />

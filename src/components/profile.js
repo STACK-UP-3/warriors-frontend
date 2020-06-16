@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Navbar } from './navbar';
 import { SideNav } from './sidenav';
 import Footer from './footer';
+import { GetProfile } from '../redux/actions/profileAction';
 
 class Profile extends Component {
     constructor(props){
@@ -17,7 +18,6 @@ class Profile extends Component {
 
     onChangeHandler = (e) => {
         const { id,value } = e.target;
-        console.log(value,id)
         this.setState({
             userData:{ ...this.state.userData, [id]:value }
         })
@@ -26,21 +26,37 @@ class Profile extends Component {
     onSubmit = (e) => {
         e.preventDefault();
     }
-    componentDidMount(){
-        !localStorage.getItem("token") ? this.props.history.push("/login") : console.log('Authenticate Token Action');
-        this.setState({
-            userData: {...this.state.userData,...this.props.authData}
-        });
+
+    componentDidUpdate(){
+        const { profile } = this.props;
+        const { loading } = this.state;
+
+        if(loading&&!profile.loading){
+            this.setState({
+                userData: profile.userData,
+                loading:false
+            });
+        }
     }
+
+    componentDidMount(){
+        const { GetUserProfile,history } = this.props;
+
+        const token = localStorage.getItem("token");
+        !token ? history.push("/login") : GetUserProfile();
+
+    }
+
     render(){
-        const { userData } = this.state;
+        const { userData,loading } = this.state;
+
         return (
             <div className="profiler">
                 <Navbar/>
                 <div className="row">
                     <SideNav/>
                     <div className="col s12 m8 l9 profile">
-                        <form onSubmit={this.onSubmit} className="">
+                        <form onSubmit={this.onSubmit}>
                             <div className="row">
                                 <div className="container">
                                     <h4 >Profile</h4>
@@ -95,7 +111,7 @@ class Profile extends Component {
                                                         value="prefere not to answer"
                                                         className="with-gap"
                                                         onChange={this.onChangeHandler}
-                                                        checked={userData.gender === "Prefere not to answer" } />
+                                                        checked={userData.gender === null } />
                                                     <span>Prefere not to answer</span>
                                                 </label>
                                             </li>
@@ -172,7 +188,11 @@ class Profile extends Component {
                                 </div>
                             </div>
                             <div className="center">
-                                <button onClick={this.onSubmit} className="btn blue darken-3 waves-effect waves-light">SAVE</button>
+                                <button 
+                                    onClick={this.onSubmit} 
+                                    className="btn blue darken-3 waves-effect waves-light"
+                                    disabled={loading}
+                                    >SAVE</button>
                             </div>
                         </form>
                     </div>
@@ -183,17 +203,12 @@ class Profile extends Component {
     }
 }
 
-const dummy = {
-    firstname:'kwizera',
-    lastname:"christophe",
-    bio:"love basketball",
-    gender:"Male",
-    birthdate:"2020-06-11",
-    telephone:'250784824295'
-}
-
 const mapStateToProps = (state) => ({
-    authData : state.loginData || dummy
+    profile : state.profile,
 });
 
-export default connect(mapStateToProps)(Profile)
+const dispatchStateToProps = (dispatch) => ({
+    GetUserProfile : () => {dispatch(GetProfile())}
+})
+
+export default connect(mapStateToProps,dispatchStateToProps)(Profile)
