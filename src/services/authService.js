@@ -1,7 +1,13 @@
-import http from '../helpers/httpHandle';
+import { ReqNoPayload,ReqPayload } from '../helpers/httpHandle';
+
+export const verifyToken = async (method , token) => {
+	const response = await ReqNoPayload(method, `/users/tokenAuth/${token}`);
+
+	return response.json();
+};
 
 export const loginService = async data => {
-	const response = await http(data, 'POST', '/users/signin');
+	const response = await ReqPayload(data, 'POST', '/users/signin');
 
 	return response.json();
 };

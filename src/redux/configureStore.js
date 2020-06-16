@@ -14,5 +14,3 @@ export default ()=>{
     
     return store;
 }
-
-//  For more information visit: https://redux.js.org/basics/store

@@ -1,5 +1,11 @@
+export const ReqNoPayload =  ( method, endUrl )=>{
+	try{
+		return fetch(`${process.env.API_BASE_URL}${endUrl}`,{ method });
 
-export default (info, method, endUrl)=>{
+	}catch(e){ }
+};
+
+export const ReqPayload = (info, method, endUrl)=>{
 	try{
 		return fetch(`${process.env.API_BASE_URL}${endUrl}`,{
 			   method: method, 
@@ -8,6 +14,6 @@ export default (info, method, endUrl)=>{
 			   'Content-Type': 'application/json'
 			   },
 			   body:JSON.stringify(info)
-		   });
-		}catch(e){ }
+		}
+		)}catch(e){ }
 };

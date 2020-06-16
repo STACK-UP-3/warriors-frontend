@@ -17,14 +17,17 @@ describe('*************** Testing the Login  component ***************',()=>{
     beforeEach(()=>{
         onFormSubmit = jest.fn();
         delete window.location;
-		window.location = { assign: jest.fn() };
+        localStorage.removeItem("token");
+		window.location = { assign: jest.fn(),search:'' };
     });
 
     afterAll(() => {
 		window.location = location;
+        expect(localStorage.getItem).toHaveBeenCalled()
     });
     
     it('Should render the login page correctly', ()=>{
+        window.location = { assign: jest.fn(), search : `?token=${tokenData}` };
         const store = mockStore([thunk])({
             loginData: {
                 loading: false,
@@ -127,5 +130,4 @@ describe('*************** Testing the Login  component ***************',()=>{
         expect(window.location.assign).toHaveBeenCalled();
         
      })
-
 });

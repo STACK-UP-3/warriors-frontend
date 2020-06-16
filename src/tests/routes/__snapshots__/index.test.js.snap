@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test <AppRoute/> componet Should render AppRoute 1`] = `
+exports[`test render routes correctly 1`] = `
 <BrowserRouter>
   <div
     className="app"
