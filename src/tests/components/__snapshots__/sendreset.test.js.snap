@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`************* Testing t resetpasword  component *************** Should render the reset password page correctly 1`] = `
+exports[`*************** Testing the Send resetpasword email link  component *************** Should render the reset password page correctly 1`] = `
 <div
   className="main-reset"
 >
@@ -16,23 +16,15 @@ exports[`************* Testing t resetpasword  component *************** Should 
         <p
           className="p-reset-message"
         >
-          Reset password
+          Forgot password
         </p>
         <input
           className="txt-input"
-          id="password"
+          id="email"
           onChange={[Function]}
-          placeholder="Enter password"
-          type="password"
-          value="passwosjjsj"
-        />
-        <input
-          className="txt-input"
-          id="confirmpassword"
-          onChange={[Function]}
-          placeholder="Confirm password"
-          type="password"
-          value="passwosjjsj"
+          placeholder="Enter your email"
+          type="email"
+          value="imbikj"
         />
         <div
           className="div-contaier"
@@ -44,10 +36,10 @@ exports[`************* Testing t resetpasword  component *************** Should 
             Cancel
           </Link>
           <button
-            className="btn waves-effect waves-light btn-send"
+            className="btn  waves-effect waves-light btn-send"
             onClick={[Function]}
           >
-            Reset password
+            Send
           </button>
         </div>
       </div>

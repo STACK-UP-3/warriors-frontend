@@ -2,32 +2,49 @@
 
 exports[`test render routes correctly 1`] = `
 <BrowserRouter>
-  <div
-    className="app"
-  >
-    <Switch>
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/"
-      />
-      <Route
-        component={[Function]}
-        path="/dashboard"
-      />
-      <Route
-        component={[Function]}
-        path="/login"
-      />
-      <Route
-        component={[Function]}
-        path="/signup"
-      />
-      <Route
-        component={[Function]}
-        path="/reset"
-      />
-    </Switch>
-  </div>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      path="/dashboard"
+    />
+    <Route
+      component={[Function]}
+      path="/login"
+    />
+    <Route
+      component={[Function]}
+      path="/signup"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(SendResetEmail)",
+          "type": [Function],
+        }
+      }
+      path="/reset"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(resetpassword)",
+          "type": [Function],
+        }
+      }
+      exact={true}
+      path="/resetpassword"
+    />
+  </Switch>
 </BrowserRouter>
 `;
