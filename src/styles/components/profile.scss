@@ -1,0 +1,36 @@
+.profile{
+    form{
+        width:100%;
+        padding:10px;
+        .row{
+            display: flex;
+            .container{
+                margin:1%;
+                border:2px solid grey;
+                border-radius:5px;
+                padding:10px;
+            }
+        }
+        button{
+            margin-top:5%;
+            border:2px solid rgb(2, 2, 128);
+        }
+    }
+
+    @media (min-width:1200px) {
+        form{
+            margin-left:-0%
+        }
+    }
+    @media(max-width: 900px){
+        form{
+            position:relative;
+            left:0%;
+            .row{
+                display:grid;
+                margin: 0 auto;
+                margin-left:5%;
+            }
+        }
+    }
+}

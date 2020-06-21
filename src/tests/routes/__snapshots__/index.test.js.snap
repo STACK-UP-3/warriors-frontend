@@ -27,6 +27,18 @@ exports[`test render routes correctly 1`] = `
         component={[Function]}
         path="/reset"
       />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(Profile)",
+            "type": [Function],
+          }
+        }
+        path="/profile"
+      />
     </Switch>
   </div>
 </BrowserRouter>

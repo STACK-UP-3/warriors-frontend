@@ -2,7 +2,7 @@
 
 exports[`Test <Footer/> Component Should render Footer with all nodes 1`] = `
 <footer
-  className="page-footer"
+  className="page-footer blue darken-3"
 >
   <div
     className="container"

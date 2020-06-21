@@ -219,7 +219,7 @@ exports[`*************** Testing the Login  component *************** Should ren
       </div>
       <_default>
         <footer
-          className="page-footer"
+          className="page-footer blue darken-3"
         >
           <div
             className="container"

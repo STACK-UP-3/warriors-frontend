@@ -42,12 +42,13 @@ export default ()=>{
         }
 
         if(localStorage.getItem("token")){
-            token = localStorage.getItem("token");
+            // token = localStorage.getItem("token");
+            window.location.assign("/dashboard")
         }
         
 
         if(token) return tokenAuthenticator(token)
-    },[]);
+    },[loginStore]);
     
     const tokenAuthenticator = (token) => { dispatch(TokenAuth(token)); }
     const onFormSubmit = data => { dispatch(onUserLogin(data));  }

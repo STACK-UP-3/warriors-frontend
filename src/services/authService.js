@@ -2,7 +2,7 @@ import { ReqNoPayload,ReqPayload } from '../helpers/httpHandle';
 
 export const verifyToken = async (method , token) => {
 	const response = await ReqNoPayload(method, `/users/tokenAuth/${token}`);
-
+	
 	return response.json();
 };
 
@@ -11,3 +11,9 @@ export const loginService = async data => {
 
 	return response.json();
 };
+
+export const getUserProfile = async () => {
+	const response = await ReqNoPayload( 'GET', '/profile');
+	
+	return response.json();
+}
