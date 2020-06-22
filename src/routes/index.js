@@ -5,6 +5,7 @@ import Dashboard from '../components/dashboard';
 import ResetPassword from '../components/resetPassword';
 import Login from '../components/login';
 import Signup from '../components/signup';
+import OnewayTrip from '../components/trips/createOnewayTrip';
 
 const AppRoute = () => {
   return (
@@ -16,6 +17,7 @@ const AppRoute = () => {
           <Route path='/login' component={Login} />
           <Route path='/signup' component={Signup} />
           <Route path='/reset' component={ResetPassword} />
+          <Route path='/trips/oneway' component={OnewayTrip} />
         </Switch>
       </div>
     </BrowserRouter>

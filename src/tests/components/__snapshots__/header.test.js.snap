@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Header/> Component Should render Header correctly 1`] = `
+<header
+  className="navbar-fixed"
+>
+  <nav
+    className="dashboard-header"
+  >
+    <div
+      className="nav-wrapper"
+    >
+      <a
+        className="sidenav-trigger show-on-med-and-down left"
+        data-target="slide-out"
+        href="#"
+      >
+        <i
+          className="material-icons"
+        >
+          menu
+        </i>
+      </a>
+      <a
+        className="brand-logo white-text"
+        href="/"
+      >
+        <img
+          className="responsive-img circle center"
+          src="../../assets/logo.png"
+        />
+      </a>
+      <ul
+        className="right hide-on-med-and-down"
+        id="nav-mobile"
+      >
+        <li>
+          <Link
+            to="/dashboard"
+          >
+            <i
+              className="material-icons"
+            >
+              home
+            </i>
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/notifications"
+          >
+            <i
+              className="material-icons"
+            >
+              notifications
+            </i>
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/account"
+          >
+            <i
+              className="material-icons"
+            >
+              account_circle
+            </i>
+          </Link>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+`;

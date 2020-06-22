@@ -1,0 +1,31 @@
+.onewayTripContainer {
+  overflow-y: auto;
+  padding-bottom: 20px;
+  height: 90vh;
+  @media (max-width: 500px) {
+    height: 80vh;
+  }
+  .fixed-sidebar {
+    width: 240px;
+    float: left;
+    border-right: 2px solid grey;
+    overflow-y: auto;
+    height: 100vh;
+  }
+  .content {
+    width: calc(100%-240px);
+    form {
+      width: 400px;
+      margin-top: 40px;
+      @media (max-width: 600px) {
+        width: initial;
+      }
+      .submitBtn button {
+        text-transform: none;
+      }
+      .row::after {
+        clear: none;
+      }
+    }
+  }
+}

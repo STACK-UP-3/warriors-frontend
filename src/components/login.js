@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import M from 'materialize-css';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { onUserLogin, TokenAuth } from '../redux/actions/loginActions';
+import { onUserLogin } from '../redux/actions/loginActions';
 import LoginForm from './loginForm';
 import Footer from './footer';
 import Message from './requestFail';
@@ -35,23 +35,10 @@ export default () => {
 
     let token;
 
-    // const url = window.location.search;
-    // const arr = url.split('');
-
-    // arr.splice(0, 7);
-
-    // if (arr.length) {
-    //   token = arr.join('');
-    // }
-
     token = localStorage.getItem('token');
-
+    /* istanbul ignore next */
     if (token) return window.location.assign('/dashboard');
   });
-
-  // const tokenAuthenticator = (token) => {
-  //   dispatch(TokenAuth(token));
-  // };
 
   const onFormSubmit = (data) => {
     dispatch(onUserLogin(data));
@@ -70,21 +57,21 @@ export default () => {
   );
 
   return (
-    <div className="loginContainer">
-      <div className="main">
+    <div className='loginContainer'>
+      <div className='main'>
         <SideContainer
           title={loginsideContainerTitle}
           subtitle={loginsideContainerSubtitle}
         />
 
-        <div className="formContainer">
+        <div className='formContainer'>
           <h1> Sign in to BareFoot Nomad </h1>
 
           <LoginForm
             onSubmit={onFormSubmit}
             userInfo={loginStore.userInfo}
             isLoading={loginStore.loading}
-            testdata="loginForm"
+            testdata='loginForm'
           />
           <br />
           <SocialAuth />

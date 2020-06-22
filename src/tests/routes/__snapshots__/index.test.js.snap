@@ -27,6 +27,10 @@ exports[`test render routes correctly 1`] = `
         component={[Function]}
         path="/reset"
       />
+      <Route
+        component={[Function]}
+        path="/trips/oneway"
+      />
     </Switch>
   </div>
 </BrowserRouter>

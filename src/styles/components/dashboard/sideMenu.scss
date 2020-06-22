@@ -1,0 +1,30 @@
+.sideMenuContainer {
+  margin-top: 40px;
+  .profile {
+    img {
+      height: 80px;
+    }
+    a {
+      position: relative;
+      margin-top: -60px;
+    }
+  }
+  .menu {
+    margin-top: 20px;
+    .menuItem {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      vertical-align: middle;
+      padding: 10px 10px;
+      i {
+        margin-top: 10px;
+        color: $baseBlue;
+      }
+    }
+  }
+  .menu .menuItem:hover {
+    background: $lightBlue;
+    cursor: pointer;
+  }
+}
