@@ -1,118 +1,117 @@
- .main{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
+.main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
 
-    @media(max-width: 500px) {
-        grid-template-columns: 1fr;
-    }
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
 }
 
-.formContainer{
-    margin-left: 10%;
-    padding: 0 10%;
+.formContainer {
+  margin-left: 10%;
+  padding: 0 10%;
 
-    .socialAuth{
-        width: 300px;
-        margin: 0px 15%;
-        text-align: center;
+  .socialAuth {
+    width: 300px;
+    margin: 0px 15%;
+    text-align: center;
 
-        .socialAuthImg{
-            padding: 2vh 2vh 0px 30px ;
-            text-align: center;
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: repeat(2, 1fr);
+    .socialAuthImg {
+      padding: 2vh 2vh 0px 30px;
+      text-align: center;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(2, 1fr);
 
-            #google{
-                text-align: right;
-                img{
-                    height: 50px;
-                }
-            }
-            #facebook{
-                text-align: left;
-                padding: 3px;
-                img{
-                    height: 45px;
-                }
-            }
-        } 
-    }
-
-    h1{
-        font-size: 37.5px;
-    }
-
-    @media(max-width: 1100px) {
-        margin: 7vh 0%;
-        padding: 0px 5%;
-
-        .socialAuth{
-            margin: 0px 3%;
+      #google {
+        text-align: right;
+        img {
+          height: 50px;
         }
-    }
-
-    @media(max-width: 500px) {
-        margin-left: 0%;
-        padding: 0px 3%;
-
-        h1{
-            margin-top: -2vh;
-            font-size: 23px;
+      }
+      #facebook {
+        text-align: left;
+        padding: 3px;
+        img {
+          height: 45px;
         }
-        .socialAuth{
-            margin: 0px 0%;
-
-            #facebook{
-                margin-left: 0px;
-            }
-        }
+      }
     }
+  }
+
+  h1 {
+    font-size: 37.5px;
+  }
+
+  @media (max-width: 1100px) {
+    margin: 7vh 0%;
+    padding: 0px 5%;
+
+    .socialAuth {
+      margin: 0px 3%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    margin-left: 0%;
+    padding: 0px 3%;
+
+    h1 {
+      margin-top: -2vh;
+      font-size: 23px;
+    }
+    .socialAuth {
+      margin: 0px 0%;
+
+      #facebook {
+        margin-left: 0px;
+      }
+    }
+  }
 }
 
+.sideContainer {
+  color: white;
+  height: 90vh;
+  width: 110%;
 
-.sideContainer{
+  .background {
+    height: 100%;
+    width: 100%;
+    background-image: $sideImg;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.4);
+  }
+
+  .content {
+    margin-top: -65vh;
+    padding: 0 30px;
+    width: 100%;
+    filter: brightness(1);
+
+    @media (max-width: 500px) {
+      margin: 15vh 0px;
+      margin-top: -80vh;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: lighter;
+  }
+
+  h4 {
+    margin-top: -2vh;
     color: white;
-    height: 90vh;
-    width: 110%;
-    
-    .background{
-        height: 100%;  
-        width: 100%;
-        background-image: $sideImg;
-        background-position: center;
-        background-size: cover;
-        filter: brightness(0.4);
-    }
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 
-    .content{
-        margin-top: -65vh;
-        padding: 0 30px;
-        width: 100%;
-        filter: brightness(1);
-
-        @media(max-width: 500px) {
-            margin: 15vh 0px; 
-            margin-top: -80vh;
-        }
-    }
-
-    p{
-        font-size: 18px;
-        font-weight: lighter;
-    }
-
-    h4{
-        margin-top: -2vh;
-        color: white;
-        font-size: 20px;
-        text-decoration: underline;
-        cursor: pointer;
-    }
-
-    @media(max-width: 1100px) {
-        margin-right: 0;
-        width: 100%;
-    }
+  @media (max-width: 1100px) {
+    margin-right: 0;
+    width: 100%;
+  }
 }

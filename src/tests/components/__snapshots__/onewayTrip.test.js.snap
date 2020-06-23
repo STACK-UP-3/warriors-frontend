@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <create onway trip/> Component Should render component correctly 1`] = `
+<div>
+  <div
+    className="onewayTripContainer"
+  >
+    <_default />
+    <div
+      className="fixed-sidebar container center hide-on-med-and-down"
+    >
+      <_default />
+    </div>
+    <div
+      className="show-on-med-and-down container center"
+    >
+      <mobileSidebar />
+    </div>
+    <div
+      className="content container center"
+    >
+      <h5>
+        Create a trip request
+      </h5>
+      <Connect(OnewayTripForm) />
+    </div>
+  </div>
+  <_default />
+</div>
+`;
+
+exports[`Test <oneway trip form/> Component Should render the oneway trip form correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(OnewayTripForm)>
+    <OnewayTripForm
+      cities={Array []}
+      citiesProcess={[Function]}
+      tripProcess={[Function]}
+      tripResponse={
+        Object {
+          "error": false,
+          "loading": false,
+          "message": "",
+        }
+      }
+    >
+      <div>
+        <form
+          className="col s12 container center"
+          id="onewayTripForm"
+          onSubmit={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": Promise {},
+                },
+              ],
+            }
+          }
+          testdata="onewayTripForm"
+        >
+          <div
+            className="form-content"
+          >
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <select
+                  className="validate"
+                  disabled={false}
+                  name="origin"
+                  onChange={[Function]}
+                >
+                  <option
+                    defaultValue="none"
+                  >
+                    Choose your origin city
+                  </option>
+                </select>
+                <label
+                  htmlFor="origin"
+                >
+                  Your Origin
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <select
+                  className="validate"
+                  disabled={false}
+                  name="destination"
+                  onChange={[Function]}
+                >
+                  <option
+                    defaultValue="none"
+                  >
+                    Choose your destination city
+                  </option>
+                </select>
+                <label>
+                  Your Destination
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12 m6"
+                style={
+                  Object {
+                    "margin": "20px 0px",
+                  }
+                }
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="date"
+                  name="date"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="date"
+                />
+                <label
+                  htmlFor="date"
+                >
+                  Leaving Date
+                </label>
+              </div>
+              <div
+                className="input-field col s12 m6"
+                style={
+                  Object {
+                    "margin": "20px 0px",
+                  }
+                }
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="returnDate"
+                  name="returnDate"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="date"
+                />
+                <label
+                  htmlFor="returnDate"
+                >
+                  Return Date
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12"
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="travelReason"
+                  name="travelReason"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="travelReason"
+                >
+                  Travel Reason
+                </label>
+              </div>
+            </div>
+            <div
+              className="contentFooter"
+            >
+              <ToastContainer
+                autoClose={8000}
+                closeButton={[Function]}
+                closeOnClick={true}
+                draggable={false}
+                draggablePercent={80}
+                hideProgressBar={true}
+                newestOnTop={false}
+                pauseOnFocusLoss={true}
+                pauseOnHover={true}
+                position="top-center"
+                role="alert"
+                rtl={false}
+                transition={[Function]}
+              >
+                <div
+                  className="Toastify"
+                />
+              </ToastContainer>
+            </div>
+          </div>
+          <div
+            className="form-footer"
+          >
+            <div
+              className="submitBtn"
+            >
+              <button
+                className="btn waves-effect waves-light"
+                disabled={true}
+                id="submit"
+                type="submit"
+              >
+                Send Request
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </OnewayTripForm>
+  </Connect(OnewayTripForm)>
+</Provider>
+`;

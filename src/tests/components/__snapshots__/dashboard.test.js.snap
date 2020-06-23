@@ -2,12 +2,29 @@
 
 exports[`*************** Testing the Dashboard  component *************** Should render the dashboard page correctly 1`] = `
 <div>
-  <h1>
-     Welcome To Your Dashboard 
-  </h1>
-  <p>
-     Your token is: 
-     
-  </p>
+  <_default />
+  <div
+    className="onewayTripContainer"
+  >
+    <div
+      className="fixed-sidebar container center hide-on-med-and-down"
+    >
+      <_default />
+    </div>
+    <div
+      className="show-on-med-and-down container center"
+    >
+      <mobileSidebar />
+    </div>
+    <div
+      className="content container center"
+    >
+      <h5>
+        Welcome to your Dashboard
+      </h5>
+    </div>
+  </div>
+  <SideInitializer />
+  <_default />
 </div>
 `;
