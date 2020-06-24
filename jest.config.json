@@ -1,10 +1,11 @@
 {
   "testRegex": "((\\.|/*.)(spec|test))\\.js?$",
   "setupFilesAfterEnv": ["<rootDir>/src/tests/enzyme.config.js"],
-  "snapshotSerializers": ["enzyme-to-json/serializer"],
   "collectCoverage": true,
   "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"],
   "coverageReporters": ["text", "lcov", "json", "html"],
+  "automock": false,
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
   "modulePathIgnorePatterns": ["index.js"],
   "moduleNameMapper": {
     "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "jest-transform-stub",

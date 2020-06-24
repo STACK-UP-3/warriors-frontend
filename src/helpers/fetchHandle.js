@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-const tokenString = localStorage.getItem('token');
-const token = JSON.parse(tokenString);
+const token = localStorage.getItem('token');
 
 export default axios.create({
   baseURL: `${process.env.API_BASE_URL}`,

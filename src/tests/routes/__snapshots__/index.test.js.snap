@@ -13,10 +13,6 @@ exports[`test render routes correctly 1`] = `
       />
       <Route
         component={[Function]}
-        path="/dashboard"
-      />
-      <Route
-        component={[Function]}
         path="/login"
       />
       <Route
@@ -30,6 +26,24 @@ exports[`test render routes correctly 1`] = `
       <Route
         component={[Function]}
         path="/trips/oneway"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/dashboard"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(RolesPage)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/dashboard/roles"
       />
     </Switch>
   </div>

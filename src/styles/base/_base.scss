@@ -1,26 +1,26 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+	padding: 0;
+	margin: 0;
 }
-html{
-    line-height: 1.5;
-    height: 100%;
+html {
+	line-height: 1.5;
+	height: 100%;
 }
-body{
-    font-family: 'Roboto',Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    background: white;
-}
-
-button{
-    cursor: pointer;
+body {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	background: white;
 }
 
-button:disabled{
-    cursor: default;
+button {
+	cursor: pointer;
 }
 
-.error{
-    font-size: 15px;
-    color: $errorColor;
+button:disabled {
+	cursor: default;
+}
+
+.error {
+	font-size: 15px;
+	color: $errorColor;
 }

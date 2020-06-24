@@ -28,16 +28,22 @@ export default () => {
     }
 
     if (loginStore.userInfo.status === 200) {
-      const token = JSON.stringify(loginStore.userInfo.data.access_token);
+      const tokenStringified = JSON.stringify(
+        loginStore.userInfo.data.access_token,
+      );
+      // remove double quotes from stringified token
+      const token = tokenStringified.slice(1, -1);
+      // save to browser local storage
       localStorage.setItem('token', token);
+      // redirect to Dashboard
       return window.location.assign('/dashboard');
     }
 
-    let token;
+    // let token;
 
-    token = localStorage.getItem('token');
-    /* istanbul ignore next */
-    if (token) return window.location.assign('/dashboard');
+    // token = localStorage.getItem('token');
+    // /* istanbul ignore next */
+    // if (token) return window.location.assign('/dashboard');
   });
 
   const onFormSubmit = (data) => {
@@ -57,21 +63,21 @@ export default () => {
   );
 
   return (
-    <div className='loginContainer'>
-      <div className='main'>
+    <div className="loginContainer">
+      <div className="main">
         <SideContainer
           title={loginsideContainerTitle}
           subtitle={loginsideContainerSubtitle}
         />
 
-        <div className='formContainer'>
+        <div className="formContainer">
           <h1> Sign in to BareFoot Nomad </h1>
 
           <LoginForm
             onSubmit={onFormSubmit}
             userInfo={loginStore.userInfo}
             isLoading={loginStore.loading}
-            testdata='loginForm'
+            testdata="loginForm"
           />
           <br />
           <SocialAuth />
