@@ -1,0 +1,63 @@
+.createAccomContainer {
+  overflow-y: auto;
+  padding-bottom: 20px;
+  height: 90vh;
+  margin: auto;
+  @media (max-width: 500px) {
+    height: 80vh;
+  }
+  .content {
+    width: calc(100%-240px);
+    float: right;
+    @media (max-width: 900px) {
+      float: none;
+    }
+    form {
+      width: 80%;
+      @media (max-width: 600px) {
+        width: initial;
+      }
+
+      #onwerField {
+        @media (max-width: 900px) {
+          margin-top: 20px;
+        }
+      }
+
+      .submitBtn button {
+        text-transform: none;
+      }
+      .services {
+        margin: 20px 0px;
+        padding: 10px;
+        background: $lightGreen;
+        .service {
+          margin: 10px;
+          padding: 25px 0px 0px 0px;
+        }
+      }
+      .rooms {
+        margin: 20px 0px;
+        padding: 10px;
+        background: $lightGreen;
+        .image-part {
+          vertical-align: middle;
+        }
+        .room {
+          margin: 10px;
+          padding: 25px 0px 0px 0px;
+        }
+      }
+      .accImages {
+        margin: 20px 0px;
+        padding: 10px;
+      }
+      .add-btn {
+        background-color: $baseBlue;
+      }
+      .contentFooter {
+        margin: 20px 0px;
+      }
+    }
+  }
+}

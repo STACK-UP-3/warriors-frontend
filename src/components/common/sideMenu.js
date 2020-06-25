@@ -19,6 +19,12 @@ export default () => {
           <h6>Make trip request</h6>
           <i className='material-icons'>airplanemode_active</i>
         </Link>
+        <Link
+          to='/create-accommodation'
+          className='menuItem black-text sidenav-close'>
+          <h6>Create Accommodation</h6>
+          <i className='material-icons'>house</i>
+        </Link>
       </div>
     </div>
   );

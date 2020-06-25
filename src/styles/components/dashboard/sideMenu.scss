@@ -28,3 +28,14 @@
     cursor: pointer;
   }
 }
+
+.fixed-sidebar {
+  width: 240px;
+  float: left;
+  border-right: 2px solid grey;
+  overflow-y: auto;
+  height: 90vh;
+  position: fixed;
+  bottom: 10vh;
+  padding-top: 50px;
+}
