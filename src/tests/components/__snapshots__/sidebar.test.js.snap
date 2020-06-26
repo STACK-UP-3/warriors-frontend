@@ -21,8 +21,13 @@ exports[`Test <Sidebar/> Component Should render Sidemenu correctly 1`] = `
     className="profile"
   >
     <img
-      src="../../assets/logo.png"
+      src={
+        Object {
+          "process": [Function],
+        }
+      }
     />
+     
     <a
       className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
     >
@@ -60,6 +65,19 @@ exports[`Test <Sidebar/> Component Should render Sidemenu correctly 1`] = `
         className="material-icons"
       >
         airplanemode_active
+      </i>
+    </Link>
+    <Link
+      className="menuItem black-text sidenav-close"
+      to="/viewtrips/accepted"
+    >
+      <h6>
+        My Trips
+      </h6>
+      <i
+        className="material-icons"
+      >
+        card_travel
       </i>
     </Link>
   </div>

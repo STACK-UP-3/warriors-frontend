@@ -1,0 +1,30 @@
+.paginationComponent{
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    left: 60%;
+    .pagination{
+        
+        .active{
+            background-color: $baseBlue;
+        }
+        
+        .paginationNbrs{
+             font-size: 16px;
+             font-style: normal;   
+        }
+        
+    }
+    
+    @media(max-width: 600px) {
+        padding: 10px 0px;
+        bottom: 56px;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        position: absolute;
+        background-color: $lightBlue;
+        margin-right: 0;
+        align-items: center;
+    }
+}

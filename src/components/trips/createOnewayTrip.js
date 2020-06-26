@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../common/header';
+import Header from '../../components/navBar';
 import SideMenu from '../common/sideMenu';
 import MobileSidebar from '../common/mobileSidebar';
 import Footer from '../footer';

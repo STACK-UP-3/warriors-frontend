@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import SignupForm from './SignupForm';
 import SideContainer from './sideContainer';
 import Footer from './footer';
+import googleImg from '../assets/google.svg';
+import facebookImg from '../assets/facebook.png';
 
 const signupTitle = 'Welcome to BareFoot Nomad';
 const signupSubTitle = (
@@ -32,10 +34,10 @@ class Signup extends Component {
 
               <div className='socialAuthImg'>
                 <div id='google'>
-                  <img src='../assets/google.svg' />
+                  <img src={googleImg} />
                 </div>
                 <div id='facebook'>
-                  <img src='../assets/facebook.png' />
+                  <img src={facebookImg} />
                 </div>
               </div>
             </div>

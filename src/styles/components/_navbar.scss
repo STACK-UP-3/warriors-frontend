@@ -1,0 +1,15 @@
+.navbar{
+	background-color: $baseBlue;
+}
+.brand-logo {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+.brand-logo img {
+	height: 40px;
+	padding-left: 24px;
+	padding-right: 24px;
+	vertical-align: middle;
+	border-radius: 50%;
+}

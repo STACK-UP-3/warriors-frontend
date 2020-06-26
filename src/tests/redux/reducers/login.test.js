@@ -1,4 +1,3 @@
-import jwt from 'jsonwebtoken';
 import  loginReducer from '../../../redux/reducers/loginReducer';
 import { LOGIN_ACTION } from '../../../redux/actions/actionTypes';
 

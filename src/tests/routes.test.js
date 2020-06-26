@@ -7,7 +7,7 @@ describe('app component', () => {
 	test('it should render the Home component', () => {
 		const component = mount(
 				<MemoryRouter initialEntries={['/']}>
-					{ App }
+					<App />
 				</MemoryRouter>
 		);
 		expect(component).toHaveLength(1);

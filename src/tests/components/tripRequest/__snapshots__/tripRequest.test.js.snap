@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the TripRequest  component *************** Should render the Trip Request page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "REPLACE",
+        "block": [MockFunction],
+        "createHref": [MockFunction],
+        "go": [MockFunction],
+        "goBack": [MockFunction],
+        "goForward": [MockFunction],
+        "length": 0,
+        "listen": [MockFunction] {
+          "calls": Array [
+            Array [
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "location": Object {
+          "hash": "",
+          "pathname": "",
+          "search": "",
+          "state": "",
+        },
+        "push": [MockFunction],
+        "replace": [MockFunction],
+      }
+    }
+  >
+    <_default
+      currentPage={2}
+      information={
+        Object {
+          "createdAt": "2020-06-12",
+          "id": 2,
+          "line_manager_id": 2,
+          "status": "pending",
+          "tripRequest": Array [
+            Object {
+              "accommodation_id": 1,
+              "destination": "destination city",
+              "origin": "origin city",
+              "travelReason": "managerTest",
+              "type": "one-way-trip",
+            },
+          ],
+          "trip_id": 2,
+          "updatedAt": "2020-06-12",
+          "user_id": 1,
+        }
+      }
+      key="2"
+    >
+      <div
+        className="collection"
+      >
+        <div
+          className="collection-item waves-effect waves-tea"
+          id={2}
+          onClick={[Function]}
+        >
+          <div
+            className="itemDetail"
+            id="origin"
+          >
+            <b>
+                 Origin:
+            </b>
+             
+            <span>
+               
+              origin city
+               
+            </span>
+          </div>
+          <div
+            className="itemDetail"
+            id="destination"
+          >
+            <b>
+               Destination:
+            </b>
+             
+            <span>
+               
+              destination city
+               
+            </span>
+          </div>
+          <div
+            className="itemDetail"
+            id="manager"
+          >
+            <b>
+               Reason:
+            </b>
+             
+            <span>
+               
+              managerTest
+               
+            </span>
+          </div>
+          <div
+            className="itemDetail"
+            id="tripType"
+          >
+            <b>
+               Type:
+            </b>
+             
+            <span>
+               
+              one-way-trip
+               
+            </span>
+          </div>
+        </div>
+      </div>
+    </_default>
+  </Router>
+</Provider>
+`;

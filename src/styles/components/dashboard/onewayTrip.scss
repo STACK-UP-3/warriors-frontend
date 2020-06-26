@@ -3,12 +3,12 @@
   padding-bottom: 20px;
   height: 90vh;
   @media (max-width: 500px) {
-    height: 80vh;
+    height: 85vh;
   }
   .fixed-sidebar {
-    width: 240px;
+    width: 25.5%;
     float: left;
-    border-right: 2px solid grey;
+    box-shadow: $rightShadow;
     overflow-y: auto;
     height: 100vh;
   }

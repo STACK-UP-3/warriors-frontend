@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the NoContent  component *************** Should render the NoContent page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <_default>
+    <div
+      className="noContent"
+    >
+      <i
+        className="medium material-icons"
+      >
+        drafts
+      </i>
+      <p>
+         There is no content on this page. 
+      </p>
+    </div>
+  </_default>
+</Provider>
+`;

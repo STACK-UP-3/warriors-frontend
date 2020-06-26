@@ -2,28 +2,30 @@
 
 exports[`*************** Testing the Dashboard  component *************** Should render the dashboard page correctly 1`] = `
 <div>
-  <_default />
-  <div
-    className="onewayTripContainer"
-  >
+  <NavBar />
+  <main>
     <div
-      className="fixed-sidebar container center hide-on-med-and-down"
+      className="sideMenu"
     >
-      <_default />
+      <div
+        className="fixed-sidebar container center hide-on-med-and-down"
+      >
+        <_default />
+      </div>
+      <div
+        className="show-on-med-and-down container center"
+      >
+        <mobileSidebar />
+      </div>
     </div>
     <div
-      className="show-on-med-and-down container center"
+      className="mainContent"
     >
-      <mobileSidebar />
+      <h1>
+        DashBoard
+      </h1>
     </div>
-    <div
-      className="content container center"
-    >
-      <h5>
-        Welcome to your Dashboard
-      </h5>
-    </div>
-  </div>
+  </main>
   <SideInitializer />
   <_default />
 </div>

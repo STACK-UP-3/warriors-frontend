@@ -1,0 +1,13 @@
+.noContent{
+    color: grey;
+    text-align: center;
+    margin-top: 20vh;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+    
+    @media (max-width: 600px) {
+        margin: 10vh 0px;
+        height: 45vh;
+      }
+}

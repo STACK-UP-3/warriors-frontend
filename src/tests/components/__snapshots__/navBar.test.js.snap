@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the Navbar  component *************** Should render the Navbar page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <NavBar>
+    <header>
+      <nav
+        className="navbar"
+      >
+        <div
+          className="nav-wrapper"
+        >
+          <a
+            className="sidenav-trigger show-on-med-and-down left"
+            data-target="slide-out"
+            href="#"
+          >
+            <i
+              className="material-icons"
+            >
+              menu
+            </i>
+          </a>
+          <a
+            className="brand-logo"
+            href="#"
+          >
+            <img
+              className="responsive-img"
+              src={
+                Object {
+                  "process": [Function],
+                }
+              }
+            />
+          </a>
+          <ul
+            className="right hide-on-med-and-down"
+            id="nav-mobile"
+          >
+            <li>
+              <a
+                href="/dashboard"
+              >
+                <i
+                  className="material-icons"
+                >
+                  home
+                </i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="/notifications"
+              >
+                <i
+                  className="material-icons"
+                >
+                  notifications
+                </i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="/account"
+              >
+                <i
+                  className="material-icons"
+                >
+                  account_circle
+                </i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </NavBar>
+</Provider>
+`;

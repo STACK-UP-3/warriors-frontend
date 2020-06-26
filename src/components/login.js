@@ -18,8 +18,7 @@ export default () => {
 
   useEffect(() => {
     M.AutoInit();
-
-    console.log('<----->');
+    
     if (loginStore.error) {
       toast.error(<Message />, {
         position: toast.POSITION.TOP_CENTER,

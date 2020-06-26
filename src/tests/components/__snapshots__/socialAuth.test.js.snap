@@ -16,7 +16,11 @@ exports[`should render correctly 1`] = `
         onClick={[Function]}
       >
         <img
-          src="../assets/google.svg"
+          src={
+            Object {
+              "process": [Function],
+            }
+          }
         />
       </div>
       <div
@@ -24,7 +28,11 @@ exports[`should render correctly 1`] = `
         onClick={[Function]}
       >
         <img
-          src="../assets/facebook.png"
+          src={
+            Object {
+              "process": [Function],
+            }
+          }
         />
       </div>
     </div>

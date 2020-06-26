@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the Pagination  component *************** Should render the Pagination page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <_default
+    nextPage={[MockFunction]}
+    numberOfPages={3}
+    page={2}
+    pages={
+      Array [
+        1,
+        2,
+        3,
+      ]
+    }
+    prevPage={1}
+    previousPage={[MockFunction]}
+  >
+    <div
+      className="paginationComponent"
+    >
+      <ul
+        className="pagination"
+      >
+        <li
+          className="disabled"
+        >
+          <a
+            href="#!"
+          >
+            <i
+              className="material-icons"
+              id="prevPage"
+              onClick={[MockFunction]}
+            >
+              chevron_left
+            </i>
+          </a>
+        </li>
+        <li
+          className="active"
+        >
+          <a
+            href="#!"
+          >
+            2
+          </a>
+        </li>
+        <li>
+          <a
+            href="#!"
+          >
+             of 
+          </a>
+        </li>
+        <li>
+          <a
+            href="#!"
+          >
+            3
+          </a>
+        </li>
+        <li
+          className="waves-effect"
+        >
+          <a
+            href="#!"
+          >
+            <i
+              className="material-icons"
+              id="nextPage"
+              onClick={[MockFunction]}
+            >
+              chevron_right
+            </i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </_default>
+</Provider>
+`;

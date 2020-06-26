@@ -41,6 +41,11 @@ exports[`*************** Testing the Login  component *************** Should ren
           >
             <div
               className="background"
+              style={
+                Object {
+                  "backgroundImage": "url([object Object])",
+                }
+              }
             />
             <div
               className="content"
@@ -201,7 +206,11 @@ exports[`*************** Testing the Login  component *************** Should ren
                   onClick={[Function]}
                 >
                   <img
-                    src="../assets/google.svg"
+                    src={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
                   />
                 </div>
                 <div
@@ -209,7 +218,11 @@ exports[`*************** Testing the Login  component *************** Should ren
                   onClick={[Function]}
                 >
                   <img
-                    src="../assets/facebook.png"
+                    src={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
                   />
                 </div>
               </div>

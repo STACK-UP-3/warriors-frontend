@@ -1,0 +1,2683 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`*************** Testing the TripRequestsLayout  component *************** Should render Skeleton when when loading 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        "/viewtrips/accepted",
+      ]
+    }
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "cligp3",
+              "pathname": "/viewtrips/accepted",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "cligp3",
+            "pathname": "/viewtrips/accepted",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default>
+        <div
+          className="tripRequestLayout"
+        >
+          <NavBar>
+            <header>
+              <nav
+                className="navbar"
+              >
+                <div
+                  className="nav-wrapper"
+                >
+                  <a
+                    className="sidenav-trigger show-on-med-and-down left"
+                    data-target="slide-out"
+                    href="#"
+                  >
+                    <i
+                      className="material-icons"
+                    >
+                      menu
+                    </i>
+                  </a>
+                  <a
+                    className="brand-logo"
+                    href="#"
+                  >
+                    <img
+                      className="responsive-img"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </a>
+                  <ul
+                    className="right hide-on-med-and-down"
+                    id="nav-mobile"
+                  >
+                    <li>
+                      <a
+                        href="/dashboard"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          home
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/notifications"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          notifications
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/account"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          account_circle
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          </NavBar>
+          <main>
+            <div
+              className="sideMenu"
+            >
+              <div
+                className="fixed-sidebar container center hide-on-med-and-down"
+              >
+                <_default>
+                  <div
+                    className="sideMenuContainer"
+                  >
+                    <div
+                      className="profile"
+                    >
+                      <img
+                        src={
+                          Object {
+                            "process": [Function],
+                          }
+                        }
+                      />
+                       
+                      <a
+                        className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                      >
+                        <i
+                          className="large material-icons indigo-text darken-4"
+                        >
+                          mode_edit
+                        </i>
+                      </a>
+                    </div>
+                    <div
+                      className="menu"
+                    >
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/dashboard"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/dashboard"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/dashboard"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Dashboard
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              pie_chart
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/trips/oneway"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/trips/oneway"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/trips/oneway"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Make trip request
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              airplanemode_active
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="activeMenuItem black-text sidenav-close"
+                        to="/viewtrips/accepted"
+                      >
+                        <LinkAnchor
+                          className="activeMenuItem black-text sidenav-close"
+                          href="/viewtrips/accepted"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="activeMenuItem black-text sidenav-close"
+                            href="/viewtrips/accepted"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              My Trips
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              card_travel
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </div>
+                  </div>
+                </_default>
+              </div>
+              <div
+                className="show-on-med-and-down container center"
+              >
+                <mobileSidebar>
+                  <div>
+                    <div
+                      className="sidenav"
+                      id="slide-out"
+                    >
+                      <_default>
+                        <div
+                          className="sideMenuContainer"
+                        >
+                          <div
+                            className="profile"
+                          >
+                            <img
+                              src={
+                                Object {
+                                  "process": [Function],
+                                }
+                              }
+                            />
+                             
+                            <a
+                              className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                            >
+                              <i
+                                className="large material-icons indigo-text darken-4"
+                              >
+                                mode_edit
+                              </i>
+                            </a>
+                          </div>
+                          <div
+                            className="menu"
+                          >
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/dashboard"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/dashboard"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/dashboard"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Dashboard
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    pie_chart
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/trips/oneway"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/trips/oneway"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/trips/oneway"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Make trip request
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    airplanemode_active
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="activeMenuItem black-text sidenav-close"
+                              to="/viewtrips/accepted"
+                            >
+                              <LinkAnchor
+                                className="activeMenuItem black-text sidenav-close"
+                                href="/viewtrips/accepted"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="activeMenuItem black-text sidenav-close"
+                                  href="/viewtrips/accepted"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    My Trips
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </div>
+                        </div>
+                      </_default>
+                    </div>
+                  </div>
+                </mobileSidebar>
+              </div>
+            </div>
+            <div
+              className="mainContent"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col s12 m2"
+                >
+                  <_default
+                    status="accepted"
+                    statusChange={[Function]}
+                  >
+                    <div
+                      className="filtersList"
+                    >
+                      <div
+                        className="filterListItem"
+                        id="activeFilter"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="accepted"
+                          id="accepted"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="filterListItem"
+                        id="pending"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="pending"
+                          id="pending"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="filterListItem"
+                        id="rejected"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="rejected"
+                          id="rejected"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </_default>
+                </div>
+                <div
+                  className="col s12 m10 content"
+                >
+                  <_default>
+                    <section>
+                      <h1
+                        id="skeletonListTitle"
+                      >
+                        <Skeleton
+                          circle={false}
+                          count={1}
+                          duration={1}
+                          height={30}
+                          width={null}
+                          wrapper={null}
+                        >
+                          <span>
+                            <EmotionCssPropInternal
+                              __EMOTION_LABEL_PLEASE_DO_NOT_USE__="Skeleton"
+                              __EMOTION_TYPE_PLEASE_DO_NOT_USE__="span"
+                              className="react-loading-skeleton"
+                              css={
+                                Object {
+                                  "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmlDIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                  "name": "1j4j5jy-skeletonStyles-Skeleton",
+                                  "next": Object {
+                                    "name": "animation-16jpnkj",
+                                    "next": undefined,
+                                    "styles": "@keyframes animation-16jpnkj{
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}",
+                                  },
+                                  "styles": "background-color:#eee;background-image:linear-gradient( 90deg,#eee,#f5f5f5,#eee );background-size:200px 100%;background-repeat:no-repeat;border-radius:4px;display:inline-block;line-height:1;width:100%;;label:skeletonStyles;; animation:animation-16jpnkj 1s ease-in-out infinite;label:Skeleton;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRWdCIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                  "toString": [Function],
+                                }
+                              }
+                              key="0"
+                              style={
+                                Object {
+                                  "height": 30,
+                                }
+                              }
+                            >
+                              <span
+                                className="react-loading-skeleton css-1j4j5jy-skeletonStyles-Skeleton"
+                                style={
+                                  Object {
+                                    "height": 30,
+                                  }
+                                }
+                              >
+                                ‌
+                              </span>
+                            </EmotionCssPropInternal>
+                          </span>
+                        </Skeleton>
+                      </h1>
+                      <div
+                        className="tripRequestsContent"
+                      >
+                        <div
+                          className="tripRequestsList"
+                        >
+                          <div
+                            className="collectionSkeleton"
+                          >
+                            <div
+                              id={1}
+                            >
+                              <Skeleton
+                                circle={false}
+                                count={1}
+                                duration={1.2}
+                                height={50}
+                                width={null}
+                                wrapper={null}
+                              >
+                                <span>
+                                  <EmotionCssPropInternal
+                                    __EMOTION_LABEL_PLEASE_DO_NOT_USE__="Skeleton"
+                                    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="span"
+                                    className="react-loading-skeleton"
+                                    css={
+                                      Object {
+                                        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmlDIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "name": "1vmnjpn-skeletonStyles-Skeleton",
+                                        "next": Object {
+                                          "name": "animation-16jpnkj",
+                                          "next": undefined,
+                                          "styles": "@keyframes animation-16jpnkj{
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}",
+                                        },
+                                        "styles": "background-color:#eee;background-image:linear-gradient( 90deg,#eee,#f5f5f5,#eee );background-size:200px 100%;background-repeat:no-repeat;border-radius:4px;display:inline-block;line-height:1;width:100%;;label:skeletonStyles;; animation:animation-16jpnkj 1.2s ease-in-out infinite;label:Skeleton;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRWdCIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "toString": [Function],
+                                      }
+                                    }
+                                    key="0"
+                                    style={
+                                      Object {
+                                        "height": 50,
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+                                      style={
+                                        Object {
+                                          "height": 50,
+                                        }
+                                      }
+                                    >
+                                      ‌
+                                    </span>
+                                  </EmotionCssPropInternal>
+                                </span>
+                              </Skeleton>
+                            </div>
+                          </div>
+                          <div
+                            className="collectionSkeleton"
+                          >
+                            <div
+                              id={1}
+                            >
+                              <Skeleton
+                                circle={false}
+                                count={1}
+                                duration={1.2}
+                                height={50}
+                                width={null}
+                                wrapper={null}
+                              >
+                                <span>
+                                  <EmotionCssPropInternal
+                                    __EMOTION_LABEL_PLEASE_DO_NOT_USE__="Skeleton"
+                                    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="span"
+                                    className="react-loading-skeleton"
+                                    css={
+                                      Object {
+                                        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmlDIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "name": "1vmnjpn-skeletonStyles-Skeleton",
+                                        "next": Object {
+                                          "name": "animation-16jpnkj",
+                                          "next": undefined,
+                                          "styles": "@keyframes animation-16jpnkj{
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}",
+                                        },
+                                        "styles": "background-color:#eee;background-image:linear-gradient( 90deg,#eee,#f5f5f5,#eee );background-size:200px 100%;background-repeat:no-repeat;border-radius:4px;display:inline-block;line-height:1;width:100%;;label:skeletonStyles;; animation:animation-16jpnkj 1.2s ease-in-out infinite;label:Skeleton;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRWdCIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "toString": [Function],
+                                      }
+                                    }
+                                    key="0"
+                                    style={
+                                      Object {
+                                        "height": 50,
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+                                      style={
+                                        Object {
+                                          "height": 50,
+                                        }
+                                      }
+                                    >
+                                      ‌
+                                    </span>
+                                  </EmotionCssPropInternal>
+                                </span>
+                              </Skeleton>
+                            </div>
+                          </div>
+                          <div
+                            className="collectionSkeleton"
+                          >
+                            <div
+                              id={1}
+                            >
+                              <Skeleton
+                                circle={false}
+                                count={1}
+                                duration={1.2}
+                                height={50}
+                                width={null}
+                                wrapper={null}
+                              >
+                                <span>
+                                  <EmotionCssPropInternal
+                                    __EMOTION_LABEL_PLEASE_DO_NOT_USE__="Skeleton"
+                                    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="span"
+                                    className="react-loading-skeleton"
+                                    css={
+                                      Object {
+                                        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmlDIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "name": "1vmnjpn-skeletonStyles-Skeleton",
+                                        "next": Object {
+                                          "name": "animation-16jpnkj",
+                                          "next": undefined,
+                                          "styles": "@keyframes animation-16jpnkj{
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}",
+                                        },
+                                        "styles": "background-color:#eee;background-image:linear-gradient( 90deg,#eee,#f5f5f5,#eee );background-size:200px 100%;background-repeat:no-repeat;border-radius:4px;display:inline-block;line-height:1;width:100%;;label:skeletonStyles;; animation:animation-16jpnkj 1.2s ease-in-out infinite;label:Skeleton;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRWdCIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "toString": [Function],
+                                      }
+                                    }
+                                    key="0"
+                                    style={
+                                      Object {
+                                        "height": 50,
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+                                      style={
+                                        Object {
+                                          "height": 50,
+                                        }
+                                      }
+                                    >
+                                      ‌
+                                    </span>
+                                  </EmotionCssPropInternal>
+                                </span>
+                              </Skeleton>
+                            </div>
+                          </div>
+                          <div
+                            className="collectionSkeleton"
+                          >
+                            <div
+                              id={1}
+                            >
+                              <Skeleton
+                                circle={false}
+                                count={1}
+                                duration={1.2}
+                                height={50}
+                                width={null}
+                                wrapper={null}
+                              >
+                                <span>
+                                  <EmotionCssPropInternal
+                                    __EMOTION_LABEL_PLEASE_DO_NOT_USE__="Skeleton"
+                                    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="span"
+                                    className="react-loading-skeleton"
+                                    css={
+                                      Object {
+                                        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmlDIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "name": "1vmnjpn-skeletonStyles-Skeleton",
+                                        "next": Object {
+                                          "name": "animation-16jpnkj",
+                                          "next": undefined,
+                                          "styles": "@keyframes animation-16jpnkj{
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}",
+                                        },
+                                        "styles": "background-color:#eee;background-image:linear-gradient( 90deg,#eee,#f5f5f5,#eee );background-size:200px 100%;background-repeat:no-repeat;border-radius:4px;display:inline-block;line-height:1;width:100%;;label:skeletonStyles;; animation:animation-16jpnkj 1.2s ease-in-out infinite;label:Skeleton;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRWdCIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "toString": [Function],
+                                      }
+                                    }
+                                    key="0"
+                                    style={
+                                      Object {
+                                        "height": 50,
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+                                      style={
+                                        Object {
+                                          "height": 50,
+                                        }
+                                      }
+                                    >
+                                      ‌
+                                    </span>
+                                  </EmotionCssPropInternal>
+                                </span>
+                              </Skeleton>
+                            </div>
+                          </div>
+                          <div
+                            className="collectionSkeleton"
+                          >
+                            <div
+                              id={1}
+                            >
+                              <Skeleton
+                                circle={false}
+                                count={1}
+                                duration={1.2}
+                                height={50}
+                                width={null}
+                                wrapper={null}
+                              >
+                                <span>
+                                  <EmotionCssPropInternal
+                                    __EMOTION_LABEL_PLEASE_DO_NOT_USE__="Skeleton"
+                                    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="span"
+                                    className="react-loading-skeleton"
+                                    css={
+                                      Object {
+                                        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmlDIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "name": "1vmnjpn-skeletonStyles-Skeleton",
+                                        "next": Object {
+                                          "name": "animation-16jpnkj",
+                                          "next": undefined,
+                                          "styles": "@keyframes animation-16jpnkj{
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}",
+                                        },
+                                        "styles": "background-color:#eee;background-image:linear-gradient( 90deg,#eee,#f5f5f5,#eee );background-size:200px 100%;background-repeat:no-repeat;border-radius:4px;display:inline-block;line-height:1;width:100%;;label:skeletonStyles;; animation:animation-16jpnkj 1.2s ease-in-out infinite;label:Skeleton;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRWdCIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "toString": [Function],
+                                      }
+                                    }
+                                    key="0"
+                                    style={
+                                      Object {
+                                        "height": 50,
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+                                      style={
+                                        Object {
+                                          "height": 50,
+                                        }
+                                      }
+                                    >
+                                      ‌
+                                    </span>
+                                  </EmotionCssPropInternal>
+                                </span>
+                              </Skeleton>
+                            </div>
+                          </div>
+                          <div
+                            className="collectionSkeleton"
+                          >
+                            <div
+                              id={1}
+                            >
+                              <Skeleton
+                                circle={false}
+                                count={1}
+                                duration={1.2}
+                                height={50}
+                                width={null}
+                                wrapper={null}
+                              >
+                                <span>
+                                  <EmotionCssPropInternal
+                                    __EMOTION_LABEL_PLEASE_DO_NOT_USE__="Skeleton"
+                                    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="span"
+                                    className="react-loading-skeleton"
+                                    css={
+                                      Object {
+                                        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmlDIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "name": "1vmnjpn-skeletonStyles-Skeleton",
+                                        "next": Object {
+                                          "name": "animation-16jpnkj",
+                                          "next": undefined,
+                                          "styles": "@keyframes animation-16jpnkj{
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}",
+                                        },
+                                        "styles": "background-color:#eee;background-image:linear-gradient( 90deg,#eee,#f5f5f5,#eee );background-size:200px 100%;background-repeat:no-repeat;border-radius:4px;display:inline-block;line-height:1;width:100%;;label:skeletonStyles;; animation:animation-16jpnkj 1.2s ease-in-out infinite;label:Skeleton;/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9za2VsZXRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRWdCIiwiZmlsZSI6Ii4uL3NyYy9za2VsZXRvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGNzcywga2V5ZnJhbWVzIH0gZnJvbSBcIkBlbW90aW9uL2NvcmVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRCYXNlQ29sb3IgPSBcIiNlZWVcIjtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRIaWdobGlnaHRDb2xvciA9IFwiI2Y1ZjVmNVwiO1xuXG5leHBvcnQgY29uc3Qgc2tlbGV0b25LZXlmcmFtZXMgPSBrZXlmcmFtZXNgXG4gIDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwcHggMDtcbiAgfVxuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjYWxjKDIwMHB4ICsgMTAwJSkgMDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IHNrZWxldG9uU3R5bGVzID0gY3NzYFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAke2RlZmF1bHRCYXNlQ29sb3J9O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgOTBkZWcsXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfSxcbiAgICAke2RlZmF1bHRIaWdobGlnaHRDb2xvcn0sXG4gICAgJHtkZWZhdWx0QmFzZUNvbG9yfVxuICApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDEwMCU7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBsaW5lLWhlaWdodDogMTtcbiAgd2lkdGg6IDEwMCU7XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNvdW50LFxuICBkdXJhdGlvbixcbiAgd2lkdGgsXG4gIHdyYXBwZXI6IFdyYXBwZXIsXG4gIGhlaWdodCxcbiAgY2lyY2xlLFxuICBzdHlsZTogY3VzdG9tU3R5bGUsXG4gIGNsYXNzTmFtZTogY3VzdG9tQ2xhc3NOYW1lLFxufSkge1xuICBjb25zdCBlbGVtZW50cyA9IFtdO1xuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykge1xuICAgIGxldCBzdHlsZSA9IHt9O1xuXG4gICAgaWYgKHdpZHRoICE9PSBudWxsKSB7XG4gICAgICBzdHlsZS53aWR0aCA9IHdpZHRoO1xuICAgIH1cblxuICAgIGlmIChoZWlnaHQgIT09IG51bGwpIHtcbiAgICAgIHN0eWxlLmhlaWdodCA9IGhlaWdodDtcbiAgICB9XG5cbiAgICBpZiAod2lkdGggIT09IG51bGwgJiYgaGVpZ2h0ICE9PSBudWxsICYmIGNpcmNsZSkge1xuICAgICAgc3R5bGUuYm9yZGVyUmFkaXVzID0gXCI1MCVcIjtcbiAgICB9XG5cbiAgICBsZXQgY2xhc3NOYW1lID0gXCJyZWFjdC1sb2FkaW5nLXNrZWxldG9uXCI7XG4gICAgaWYgKGN1c3RvbUNsYXNzTmFtZSkge1xuICAgICAgY2xhc3NOYW1lICs9IFwiIFwiICsgY3VzdG9tQ2xhc3NOYW1lO1xuICAgIH1cblxuICAgIGVsZW1lbnRzLnB1c2goXG4gICAgICA8c3BhblxuICAgICAgICBrZXk9e2l9XG4gICAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfVxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICAke3NrZWxldG9uU3R5bGVzfVxuICAgICAgICAgIGFuaW1hdGlvbjogJHtza2VsZXRvbktleWZyYW1lc30gJHtkdXJhdGlvbn1zIGVhc2UtaW4tb3V0IGluZmluaXRlXG4gICAgICAgIGB9XG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgLi4uY3VzdG9tU3R5bGUsXG4gICAgICAgICAgLi4uc3R5bGUsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgICZ6d25qO1xuICAgICAgPC9zcGFuPlxuICAgICk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxzcGFuPlxuICAgICAge1dyYXBwZXJcbiAgICAgICAgPyBlbGVtZW50cy5tYXAoKGVsZW1lbnQsIGkpID0+IChcbiAgICAgICAgICAgIDxXcmFwcGVyIGtleT17aX0+XG4gICAgICAgICAgICAgIHtlbGVtZW50fVxuICAgICAgICAgICAgICAmenduajtcbiAgICAgICAgICAgIDwvV3JhcHBlcj5cbiAgICAgICAgICApKVxuICAgICAgICA6IGVsZW1lbnRzfVxuICAgIDwvc3Bhbj5cbiAgKTtcbn1cblxuU2tlbGV0b24uZGVmYXVsdFByb3BzID0ge1xuICBjb3VudDogMSxcbiAgZHVyYXRpb246IDEuMixcbiAgd2lkdGg6IG51bGwsXG4gIHdyYXBwZXI6IG51bGwsXG4gIGhlaWdodDogbnVsbCxcbiAgY2lyY2xlOiBmYWxzZSxcbn07XG4iXX0= */",
+                                        "toString": [Function],
+                                      }
+                                    }
+                                    key="0"
+                                    style={
+                                      Object {
+                                        "height": 50,
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+                                      style={
+                                        Object {
+                                          "height": 50,
+                                        }
+                                      }
+                                    >
+                                      ‌
+                                    </span>
+                                  </EmotionCssPropInternal>
+                                </span>
+                              </Skeleton>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </_default>
+                </div>
+              </div>
+            </div>
+          </main>
+          <_default>
+            <footer
+              className="page-footer"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="footer"
+                >
+                  <span>
+                    © 2020 BareFoot Nomad, All rights reserved.
+                  </span>
+                </div>
+              </div>
+            </footer>
+          </_default>
+        </div>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`*************** Testing the TripRequestsLayout  component *************** Should render the TripRequestsLayout page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        "/viewtrips/accepted",
+      ]
+    }
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "p3llsa",
+              "pathname": "/viewtrips/accepted",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "p3llsa",
+            "pathname": "/viewtrips/accepted",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default>
+        <div
+          className="tripRequestLayout"
+        >
+          <NavBar>
+            <header>
+              <nav
+                className="navbar"
+              >
+                <div
+                  className="nav-wrapper"
+                >
+                  <a
+                    className="sidenav-trigger show-on-med-and-down left"
+                    data-target="slide-out"
+                    href="#"
+                  >
+                    <i
+                      className="material-icons"
+                    >
+                      menu
+                    </i>
+                  </a>
+                  <a
+                    className="brand-logo"
+                    href="#"
+                  >
+                    <img
+                      className="responsive-img"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </a>
+                  <ul
+                    className="right hide-on-med-and-down"
+                    id="nav-mobile"
+                  >
+                    <li>
+                      <a
+                        href="/dashboard"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          home
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/notifications"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          notifications
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/account"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          account_circle
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          </NavBar>
+          <main>
+            <div
+              className="sideMenu"
+            >
+              <div
+                className="fixed-sidebar container center hide-on-med-and-down"
+              >
+                <_default>
+                  <div
+                    className="sideMenuContainer"
+                  >
+                    <div
+                      className="profile"
+                    >
+                      <img
+                        src={
+                          Object {
+                            "process": [Function],
+                          }
+                        }
+                      />
+                       
+                      <a
+                        className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                      >
+                        <i
+                          className="large material-icons indigo-text darken-4"
+                        >
+                          mode_edit
+                        </i>
+                      </a>
+                    </div>
+                    <div
+                      className="menu"
+                    >
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/dashboard"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/dashboard"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/dashboard"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Dashboard
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              pie_chart
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/trips/oneway"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/trips/oneway"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/trips/oneway"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Make trip request
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              airplanemode_active
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="activeMenuItem black-text sidenav-close"
+                        to="/viewtrips/accepted"
+                      >
+                        <LinkAnchor
+                          className="activeMenuItem black-text sidenav-close"
+                          href="/viewtrips/accepted"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="activeMenuItem black-text sidenav-close"
+                            href="/viewtrips/accepted"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              My Trips
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              card_travel
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </div>
+                  </div>
+                </_default>
+              </div>
+              <div
+                className="show-on-med-and-down container center"
+              >
+                <mobileSidebar>
+                  <div>
+                    <div
+                      className="sidenav"
+                      id="slide-out"
+                    >
+                      <_default>
+                        <div
+                          className="sideMenuContainer"
+                        >
+                          <div
+                            className="profile"
+                          >
+                            <img
+                              src={
+                                Object {
+                                  "process": [Function],
+                                }
+                              }
+                            />
+                             
+                            <a
+                              className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                            >
+                              <i
+                                className="large material-icons indigo-text darken-4"
+                              >
+                                mode_edit
+                              </i>
+                            </a>
+                          </div>
+                          <div
+                            className="menu"
+                          >
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/dashboard"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/dashboard"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/dashboard"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Dashboard
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    pie_chart
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/trips/oneway"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/trips/oneway"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/trips/oneway"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Make trip request
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    airplanemode_active
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="activeMenuItem black-text sidenav-close"
+                              to="/viewtrips/accepted"
+                            >
+                              <LinkAnchor
+                                className="activeMenuItem black-text sidenav-close"
+                                href="/viewtrips/accepted"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="activeMenuItem black-text sidenav-close"
+                                  href="/viewtrips/accepted"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    My Trips
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </div>
+                        </div>
+                      </_default>
+                    </div>
+                  </div>
+                </mobileSidebar>
+              </div>
+            </div>
+            <div
+              className="mainContent"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col s12 m2"
+                >
+                  <_default
+                    status="accepted"
+                    statusChange={[Function]}
+                  >
+                    <div
+                      className="filtersList"
+                    >
+                      <div
+                        className="filterListItem"
+                        id="activeFilter"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="accepted"
+                          id="accepted"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="filterListItem"
+                        id="pending"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="pending"
+                          id="pending"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="filterListItem"
+                        id="rejected"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="rejected"
+                          id="rejected"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </_default>
+                </div>
+                <div
+                  className="col s12 m10 content"
+                >
+                  <div
+                    className="contentAfterSkeleton"
+                  >
+                    <h1
+                      id="listTitle"
+                    >
+                      Accepted
+                       Trips
+                    </h1>
+                    <div>
+                      <div
+                        className="tripRequestsContent"
+                      >
+                        <div
+                          className="tripRequestsList"
+                        >
+                          <_default
+                            currentPage={3}
+                            information={
+                              Object {
+                                "id": 24,
+                                "line_manager_id": 2,
+                                "status": "accepted",
+                                "tripRequest": Array [
+                                  Object {
+                                    "dateOfTravel": "2020-10-20",
+                                    "destination": "Kampala",
+                                    "id": 22,
+                                    "origin": "Kigali",
+                                    "travelReason": "Visiting",
+                                    "type": "one-way-trip",
+                                    "user_id": 1,
+                                  },
+                                ],
+                                "trip_id": 22,
+                                "user_id": 1,
+                              }
+                            }
+                            key="24"
+                          >
+                            <div
+                              className="collection"
+                            >
+                              <div
+                                className="collection-item waves-effect waves-tea"
+                                id={24}
+                                onClick={[Function]}
+                              >
+                                <div
+                                  className="itemDetail"
+                                  id="origin"
+                                >
+                                  <b>
+                                       Origin:
+                                  </b>
+                                   
+                                  <span>
+                                     
+                                    Kigali
+                                     
+                                  </span>
+                                </div>
+                                <div
+                                  className="itemDetail"
+                                  id="destination"
+                                >
+                                  <b>
+                                     Destination:
+                                  </b>
+                                   
+                                  <span>
+                                     
+                                    Kampala
+                                     
+                                  </span>
+                                </div>
+                                <div
+                                  className="itemDetail"
+                                  id="manager"
+                                >
+                                  <b>
+                                     Reason:
+                                  </b>
+                                   
+                                  <span>
+                                     
+                                    Visiting
+                                     
+                                  </span>
+                                </div>
+                                <div
+                                  className="itemDetail"
+                                  id="tripType"
+                                >
+                                  <b>
+                                     Type:
+                                  </b>
+                                   
+                                  <span>
+                                     
+                                    one-way-trip
+                                     
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </_default>
+                          <_default
+                            currentPage={3}
+                            information={
+                              Object {
+                                "id": 23,
+                                "line_manager_id": 2,
+                                "status": "accepted",
+                                "tripRequest": Array [
+                                  Object {
+                                    "dateOfTravel": "2020-10-20",
+                                    "destination": "Kampala",
+                                    "id": 21,
+                                    "origin": "Kigali",
+                                    "travelReason": "Visiting",
+                                    "type": "one-way-trip",
+                                    "user_id": 1,
+                                  },
+                                ],
+                                "trip_id": 21,
+                                "user_id": 1,
+                              }
+                            }
+                            key="23"
+                          >
+                            <div
+                              className="collection"
+                            >
+                              <div
+                                className="collection-item waves-effect waves-tea"
+                                id={23}
+                                onClick={[Function]}
+                              >
+                                <div
+                                  className="itemDetail"
+                                  id="origin"
+                                >
+                                  <b>
+                                       Origin:
+                                  </b>
+                                   
+                                  <span>
+                                     
+                                    Kigali
+                                     
+                                  </span>
+                                </div>
+                                <div
+                                  className="itemDetail"
+                                  id="destination"
+                                >
+                                  <b>
+                                     Destination:
+                                  </b>
+                                   
+                                  <span>
+                                     
+                                    Kampala
+                                     
+                                  </span>
+                                </div>
+                                <div
+                                  className="itemDetail"
+                                  id="manager"
+                                >
+                                  <b>
+                                     Reason:
+                                  </b>
+                                   
+                                  <span>
+                                     
+                                    Visiting
+                                     
+                                  </span>
+                                </div>
+                                <div
+                                  className="itemDetail"
+                                  id="tripType"
+                                >
+                                  <b>
+                                     Type:
+                                  </b>
+                                   
+                                  <span>
+                                     
+                                    one-way-trip
+                                     
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </_default>
+                        </div>
+                        <_default
+                          nextPage={[Function]}
+                          numberOfPages={6}
+                          page={3}
+                          pages={
+                            Array [
+                              1,
+                              2,
+                              3,
+                              4,
+                              5,
+                              6,
+                            ]
+                          }
+                          previousPage={[Function]}
+                        >
+                          <div
+                            className="paginationComponent"
+                          >
+                            <ul
+                              className="pagination"
+                            >
+                              <li
+                                className="waves-effect"
+                              >
+                                <a
+                                  href="#!"
+                                >
+                                  <i
+                                    className="material-icons"
+                                    id="prevPage"
+                                    onClick={[Function]}
+                                  >
+                                    chevron_left
+                                  </i>
+                                </a>
+                              </li>
+                              <li
+                                className="active"
+                              >
+                                <a
+                                  href="#!"
+                                >
+                                  3
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  href="#!"
+                                >
+                                   of 
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  href="#!"
+                                >
+                                  6
+                                </a>
+                              </li>
+                              <li
+                                className="waves-effect"
+                              >
+                                <a
+                                  href="#!"
+                                >
+                                  <i
+                                    className="material-icons"
+                                    id="nextPage"
+                                    onClick={[Function]}
+                                  >
+                                    chevron_right
+                                  </i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </_default>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+          <_default>
+            <footer
+              className="page-footer"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="footer"
+                >
+                  <span>
+                    © 2020 BareFoot Nomad, All rights reserved.
+                  </span>
+                </div>
+              </div>
+            </footer>
+          </_default>
+        </div>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`*************** Testing the TripRequestsLayout  component *************** Should test Backend connection Error 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        "/viewtrips/accepted",
+      ]
+    }
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "fyrnyh",
+              "pathname": "/viewtrips/accepted",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "fyrnyh",
+            "pathname": "/viewtrips/accepted",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default>
+        <div
+          className="tripRequestLayout"
+        >
+          <NavBar>
+            <header>
+              <nav
+                className="navbar"
+              >
+                <div
+                  className="nav-wrapper"
+                >
+                  <a
+                    className="sidenav-trigger show-on-med-and-down left"
+                    data-target="slide-out"
+                    href="#"
+                  >
+                    <i
+                      className="material-icons"
+                    >
+                      menu
+                    </i>
+                  </a>
+                  <a
+                    className="brand-logo"
+                    href="#"
+                  >
+                    <img
+                      className="responsive-img"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </a>
+                  <ul
+                    className="right hide-on-med-and-down"
+                    id="nav-mobile"
+                  >
+                    <li>
+                      <a
+                        href="/dashboard"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          home
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/notifications"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          notifications
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/account"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          account_circle
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          </NavBar>
+          <main>
+            <div
+              className="sideMenu"
+            >
+              <div
+                className="fixed-sidebar container center hide-on-med-and-down"
+              >
+                <_default>
+                  <div
+                    className="sideMenuContainer"
+                  >
+                    <div
+                      className="profile"
+                    >
+                      <img
+                        src={
+                          Object {
+                            "process": [Function],
+                          }
+                        }
+                      />
+                       
+                      <a
+                        className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                      >
+                        <i
+                          className="large material-icons indigo-text darken-4"
+                        >
+                          mode_edit
+                        </i>
+                      </a>
+                    </div>
+                    <div
+                      className="menu"
+                    >
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/dashboard"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/dashboard"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/dashboard"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Dashboard
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              pie_chart
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/trips/oneway"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/trips/oneway"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/trips/oneway"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Make trip request
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              airplanemode_active
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="activeMenuItem black-text sidenav-close"
+                        to="/viewtrips/accepted"
+                      >
+                        <LinkAnchor
+                          className="activeMenuItem black-text sidenav-close"
+                          href="/viewtrips/accepted"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="activeMenuItem black-text sidenav-close"
+                            href="/viewtrips/accepted"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              My Trips
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              card_travel
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </div>
+                  </div>
+                </_default>
+              </div>
+              <div
+                className="show-on-med-and-down container center"
+              >
+                <mobileSidebar>
+                  <div>
+                    <div
+                      className="sidenav"
+                      id="slide-out"
+                    >
+                      <_default>
+                        <div
+                          className="sideMenuContainer"
+                        >
+                          <div
+                            className="profile"
+                          >
+                            <img
+                              src={
+                                Object {
+                                  "process": [Function],
+                                }
+                              }
+                            />
+                             
+                            <a
+                              className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                            >
+                              <i
+                                className="large material-icons indigo-text darken-4"
+                              >
+                                mode_edit
+                              </i>
+                            </a>
+                          </div>
+                          <div
+                            className="menu"
+                          >
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/dashboard"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/dashboard"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/dashboard"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Dashboard
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    pie_chart
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/trips/oneway"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/trips/oneway"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/trips/oneway"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Make trip request
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    airplanemode_active
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="activeMenuItem black-text sidenav-close"
+                              to="/viewtrips/accepted"
+                            >
+                              <LinkAnchor
+                                className="activeMenuItem black-text sidenav-close"
+                                href="/viewtrips/accepted"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="activeMenuItem black-text sidenav-close"
+                                  href="/viewtrips/accepted"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    My Trips
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </div>
+                        </div>
+                      </_default>
+                    </div>
+                  </div>
+                </mobileSidebar>
+              </div>
+            </div>
+            <div
+              className="mainContent"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col s12 m2"
+                >
+                  <_default
+                    status="accepted"
+                    statusChange={[Function]}
+                  >
+                    <div
+                      className="filtersList"
+                    >
+                      <div
+                        className="filterListItem"
+                        id="activeFilter"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="accepted"
+                          id="accepted"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="filterListItem"
+                        id="pending"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="pending"
+                          id="pending"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="filterListItem"
+                        id="rejected"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="rejected"
+                          id="rejected"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </_default>
+                </div>
+                <div
+                  className="col s12 m10 content"
+                >
+                  <div
+                    className="contentAfterSkeleton"
+                  >
+                    <h1
+                      id="listTitle"
+                    >
+                      Accepted
+                       Trips
+                    </h1>
+                    <div>
+                      <_default>
+                        <div
+                          className="noContent"
+                        >
+                          <i
+                            className="medium material-icons"
+                          >
+                            drafts
+                          </i>
+                          <p>
+                             There is no content on this page. 
+                          </p>
+                        </div>
+                      </_default>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+          <_default>
+            <footer
+              className="page-footer"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="footer"
+                >
+                  <span>
+                    © 2020 BareFoot Nomad, All rights reserved.
+                  </span>
+                </div>
+              </div>
+            </footer>
+          </_default>
+        </div>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`*************** Testing the TripRequestsLayout  component *************** Should test In case no results found 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        "/viewtrips/accepted",
+      ]
+    }
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "f8xvam",
+              "pathname": "/viewtrips/accepted",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "f8xvam",
+            "pathname": "/viewtrips/accepted",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default>
+        <div
+          className="tripRequestLayout"
+        >
+          <NavBar>
+            <header>
+              <nav
+                className="navbar"
+              >
+                <div
+                  className="nav-wrapper"
+                >
+                  <a
+                    className="sidenav-trigger show-on-med-and-down left"
+                    data-target="slide-out"
+                    href="#"
+                  >
+                    <i
+                      className="material-icons"
+                    >
+                      menu
+                    </i>
+                  </a>
+                  <a
+                    className="brand-logo"
+                    href="#"
+                  >
+                    <img
+                      className="responsive-img"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </a>
+                  <ul
+                    className="right hide-on-med-and-down"
+                    id="nav-mobile"
+                  >
+                    <li>
+                      <a
+                        href="/dashboard"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          home
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/notifications"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          notifications
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/account"
+                      >
+                        <i
+                          className="material-icons"
+                        >
+                          account_circle
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          </NavBar>
+          <main>
+            <div
+              className="sideMenu"
+            >
+              <div
+                className="fixed-sidebar container center hide-on-med-and-down"
+              >
+                <_default>
+                  <div
+                    className="sideMenuContainer"
+                  >
+                    <div
+                      className="profile"
+                    >
+                      <img
+                        src={
+                          Object {
+                            "process": [Function],
+                          }
+                        }
+                      />
+                       
+                      <a
+                        className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                      >
+                        <i
+                          className="large material-icons indigo-text darken-4"
+                        >
+                          mode_edit
+                        </i>
+                      </a>
+                    </div>
+                    <div
+                      className="menu"
+                    >
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/dashboard"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/dashboard"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/dashboard"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Dashboard
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              pie_chart
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/trips/oneway"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/trips/oneway"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/trips/oneway"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Make trip request
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              airplanemode_active
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                      <Link
+                        className="activeMenuItem black-text sidenav-close"
+                        to="/viewtrips/accepted"
+                      >
+                        <LinkAnchor
+                          className="activeMenuItem black-text sidenav-close"
+                          href="/viewtrips/accepted"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="activeMenuItem black-text sidenav-close"
+                            href="/viewtrips/accepted"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              My Trips
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              card_travel
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </div>
+                  </div>
+                </_default>
+              </div>
+              <div
+                className="show-on-med-and-down container center"
+              >
+                <mobileSidebar>
+                  <div>
+                    <div
+                      className="sidenav"
+                      id="slide-out"
+                    >
+                      <_default>
+                        <div
+                          className="sideMenuContainer"
+                        >
+                          <div
+                            className="profile"
+                          >
+                            <img
+                              src={
+                                Object {
+                                  "process": [Function],
+                                }
+                              }
+                            />
+                             
+                            <a
+                              className="btn-floating btn-small halfway-fab waves-effect waves-light blue lighten-5"
+                            >
+                              <i
+                                className="large material-icons indigo-text darken-4"
+                              >
+                                mode_edit
+                              </i>
+                            </a>
+                          </div>
+                          <div
+                            className="menu"
+                          >
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/dashboard"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/dashboard"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/dashboard"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Dashboard
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    pie_chart
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/trips/oneway"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/trips/oneway"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/trips/oneway"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Make trip request
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    airplanemode_active
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="activeMenuItem black-text sidenav-close"
+                              to="/viewtrips/accepted"
+                            >
+                              <LinkAnchor
+                                className="activeMenuItem black-text sidenav-close"
+                                href="/viewtrips/accepted"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="activeMenuItem black-text sidenav-close"
+                                  href="/viewtrips/accepted"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    My Trips
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </div>
+                        </div>
+                      </_default>
+                    </div>
+                  </div>
+                </mobileSidebar>
+              </div>
+            </div>
+            <div
+              className="mainContent"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col s12 m2"
+                >
+                  <_default
+                    status="accepted"
+                    statusChange={[Function]}
+                  >
+                    <div
+                      className="filtersList"
+                    >
+                      <div
+                        className="filterListItem"
+                        id="activeFilter"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="accepted"
+                          id="accepted"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="filterListItem"
+                        id="pending"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="pending"
+                          id="pending"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="filterListItem"
+                        id="rejected"
+                        onClick={[Function]}
+                      >
+                        <img
+                          alt="rejected"
+                          id="rejected"
+                          src={
+                            Object {
+                              "process": [Function],
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </_default>
+                </div>
+                <div
+                  className="col s12 m10 content"
+                >
+                  <div
+                    className="contentAfterSkeleton"
+                  >
+                    <h1
+                      id="listTitle"
+                    >
+                      Accepted
+                       Trips
+                    </h1>
+                    <div>
+                      <div
+                        className="tripRequestsContent"
+                      >
+                        <div
+                          className="tripRequestsList"
+                        />
+                        <_default
+                          nextPage={[Function]}
+                          numberOfPages={6}
+                          page={3}
+                          pages={
+                            Array [
+                              1,
+                              2,
+                              3,
+                              4,
+                              5,
+                              6,
+                            ]
+                          }
+                          previousPage={[Function]}
+                        >
+                          <div
+                            className="paginationComponent"
+                          >
+                            <ul
+                              className="pagination"
+                            >
+                              <li
+                                className="waves-effect"
+                              >
+                                <a
+                                  href="#!"
+                                >
+                                  <i
+                                    className="material-icons"
+                                    id="prevPage"
+                                    onClick={[Function]}
+                                  >
+                                    chevron_left
+                                  </i>
+                                </a>
+                              </li>
+                              <li
+                                className="active"
+                              >
+                                <a
+                                  href="#!"
+                                >
+                                  3
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  href="#!"
+                                >
+                                   of 
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  href="#!"
+                                >
+                                  6
+                                </a>
+                              </li>
+                              <li
+                                className="waves-effect"
+                              >
+                                <a
+                                  href="#!"
+                                >
+                                  <i
+                                    className="material-icons"
+                                    id="nextPage"
+                                    onClick={[Function]}
+                                  >
+                                    chevron_right
+                                  </i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </_default>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+          <_default>
+            <footer
+              className="page-footer"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="footer"
+                >
+                  <span>
+                    © 2020 BareFoot Nomad, All rights reserved.
+                  </span>
+                </div>
+              </div>
+            </footer>
+          </_default>
+        </div>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
