@@ -1,31 +1,13 @@
 .onewayTripContainer {
-  overflow-y: auto;
-  padding-bottom: 20px;
-  height: 90vh;
-  @media (max-width: 500px) {
-    height: 85vh;
-  }
-  .fixed-sidebar {
-    width: 25.5%;
-    float: left;
-    box-shadow: $rightShadow;
-    overflow-y: auto;
-    height: 100vh;
-  }
-  .content {
-    width: calc(100%-240px);
-    form {
-      width: 400px;
-      margin-top: 40px;
-      @media (max-width: 600px) {
-        width: initial;
-      }
-      .submitBtn button {
-        text-transform: none;
-      }
-      .row::after {
-        clear: none;
-      }
+  form {
+    width: 60% !important;
+    margin: 40px 20% 15vh 15% !important;
+    @media (max-width: 600px) {
+      margin: 40px 0px 25vh 0px !important;
+      width: initial !important;
+    }
+    .submitBtn button {
+      text-transform: none;
     }
   }
 }

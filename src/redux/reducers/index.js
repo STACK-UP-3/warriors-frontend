@@ -8,13 +8,15 @@ import singleTrip from './singleTrip';
 import accommodation from './accomodation';
 import { citiesReducer } from './citiesReducer';
 import { onewayTripReducer } from './onewayTripReducer';
+import { createAccommodationReducer } from './accommodationReducer';
 
 export default combineReducers({
-    loginData: loginReducer,
-    signup: signupReducer,
-    tripRequests: tripRequestReducer,
-    tripRequest:singleTrip,
-    accommodation:accommodation,
-    cities: citiesReducer,
-    onewayTrip: onewayTripReducer,
+  loginData: loginReducer,
+  signup: signupReducer,
+  tripRequests: tripRequestReducer,
+  tripRequest: singleTrip,
+  accommodation: accommodation,
+  cities: citiesReducer,
+  onewayTrip: onewayTripReducer,
+  accomCreateResponse: createAccommodationReducer,
 });

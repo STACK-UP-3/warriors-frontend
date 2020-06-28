@@ -3,7 +3,13 @@
 exports[`*************** Testing the Dashboard  component *************** Should render the dashboard page correctly 1`] = `
 <div>
   <NavBar />
-  <main>
+  <main
+    style={
+      Object {
+        "height": "100vh",
+      }
+    }
+  >
     <div
       className="sideMenu"
     >

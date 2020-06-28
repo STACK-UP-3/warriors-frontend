@@ -4,14 +4,14 @@ main {
     
     .mainContent{
         margin-left: -51%;
-        height: 100vh;
+        // height: 100vh;
     
         @media (max-height:800px) {
-            height: 82vh;
+            // height: 82vh;
         }
         
         @media (max-height:700px) {
-            height: 80.3vh;
+            // height: 80.3vh;
         }
         
         @media (max-width: 500px) {

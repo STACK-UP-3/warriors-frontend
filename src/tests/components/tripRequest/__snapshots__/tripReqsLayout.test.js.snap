@@ -30,7 +30,7 @@ exports[`*************** Testing the TripRequestsLayout  component *************
           "entries": Array [
             Object {
               "hash": "",
-              "key": "cligp3",
+              "key": "576xo6",
               "pathname": "/viewtrips/accepted",
               "search": "",
               "state": undefined,
@@ -44,7 +44,7 @@ exports[`*************** Testing the TripRequestsLayout  component *************
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "cligp3",
+            "key": "576xo6",
             "pathname": "/viewtrips/accepted",
             "search": "",
             "state": undefined,
@@ -242,6 +242,31 @@ exports[`*************** Testing the TripRequestsLayout  component *************
                           </a>
                         </LinkAnchor>
                       </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/create-accommodation"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/create-accommodation"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/create-accommodation"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Create Accommodation
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              house
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
                     </div>
                   </div>
                 </_default>
@@ -354,6 +379,31 @@ exports[`*************** Testing the TripRequestsLayout  component *************
                                     className="material-icons"
                                   >
                                     card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/create-accommodation"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/create-accommodation"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/create-accommodation"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Create Accommodation
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    house
                                   </i>
                                 </a>
                               </LinkAnchor>
@@ -926,7 +976,7 @@ exports[`*************** Testing the TripRequestsLayout  component *************
           "entries": Array [
             Object {
               "hash": "",
-              "key": "p3llsa",
+              "key": "zcvzy8",
               "pathname": "/viewtrips/accepted",
               "search": "",
               "state": undefined,
@@ -940,7 +990,7 @@ exports[`*************** Testing the TripRequestsLayout  component *************
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "p3llsa",
+            "key": "zcvzy8",
             "pathname": "/viewtrips/accepted",
             "search": "",
             "state": undefined,
@@ -1138,6 +1188,31 @@ exports[`*************** Testing the TripRequestsLayout  component *************
                           </a>
                         </LinkAnchor>
                       </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/create-accommodation"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/create-accommodation"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/create-accommodation"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Create Accommodation
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              house
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
                     </div>
                   </div>
                 </_default>
@@ -1250,6 +1325,31 @@ exports[`*************** Testing the TripRequestsLayout  component *************
                                     className="material-icons"
                                   >
                                     card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/create-accommodation"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/create-accommodation"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/create-accommodation"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Create Accommodation
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    house
                                   </i>
                                 </a>
                               </LinkAnchor>
@@ -1667,7 +1767,7 @@ exports[`*************** Testing the TripRequestsLayout  component *************
           "entries": Array [
             Object {
               "hash": "",
-              "key": "fyrnyh",
+              "key": "gu4d54",
               "pathname": "/viewtrips/accepted",
               "search": "",
               "state": undefined,
@@ -1681,7 +1781,7 @@ exports[`*************** Testing the TripRequestsLayout  component *************
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "fyrnyh",
+            "key": "gu4d54",
             "pathname": "/viewtrips/accepted",
             "search": "",
             "state": undefined,
@@ -1879,6 +1979,31 @@ exports[`*************** Testing the TripRequestsLayout  component *************
                           </a>
                         </LinkAnchor>
                       </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/create-accommodation"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/create-accommodation"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/create-accommodation"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Create Accommodation
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              house
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
                     </div>
                   </div>
                 </_default>
@@ -1991,6 +2116,31 @@ exports[`*************** Testing the TripRequestsLayout  component *************
                                     className="material-icons"
                                   >
                                     card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/create-accommodation"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/create-accommodation"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/create-accommodation"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Create Accommodation
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    house
                                   </i>
                                 </a>
                               </LinkAnchor>
@@ -2154,7 +2304,7 @@ exports[`*************** Testing the TripRequestsLayout  component *************
           "entries": Array [
             Object {
               "hash": "",
-              "key": "f8xvam",
+              "key": "ewf8iq",
               "pathname": "/viewtrips/accepted",
               "search": "",
               "state": undefined,
@@ -2168,7 +2318,7 @@ exports[`*************** Testing the TripRequestsLayout  component *************
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "f8xvam",
+            "key": "ewf8iq",
             "pathname": "/viewtrips/accepted",
             "search": "",
             "state": undefined,
@@ -2366,6 +2516,31 @@ exports[`*************** Testing the TripRequestsLayout  component *************
                           </a>
                         </LinkAnchor>
                       </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/create-accommodation"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/create-accommodation"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/create-accommodation"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Create Accommodation
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              house
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
                     </div>
                   </div>
                 </_default>
@@ -2478,6 +2653,31 @@ exports[`*************** Testing the TripRequestsLayout  component *************
                                     className="material-icons"
                                   >
                                     card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/create-accommodation"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/create-accommodation"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/create-accommodation"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Create Accommodation
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    house
                                   </i>
                                 </a>
                               </LinkAnchor>

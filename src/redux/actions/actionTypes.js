@@ -9,3 +9,4 @@ export const GET_TRIP_INFO = 'GET_SINGLE_TRIP_INFO';
 export const GET_ACCOMMODATION = 'GET_TRIP_ACCOMMODATION_INFO';
 export const FETCH_CITIES = 'fetch_cities';
 export const ONEWAY_TRIP_PROCESS = 'oneway_trip_process';
+export const CREATE_ACCOMMODATION = 'create_accommodation';

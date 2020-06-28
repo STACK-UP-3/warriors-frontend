@@ -29,7 +29,7 @@ exports[`*************** Testing the SideMenu component *************** Should r
           "entries": Array [
             Object {
               "hash": "",
-              "key": "po2gnj",
+              "key": "nb8tn0",
               "pathname": "/trips/oneway",
               "search": "",
               "state": undefined,
@@ -43,7 +43,7 @@ exports[`*************** Testing the SideMenu component *************** Should r
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "po2gnj",
+            "key": "nb8tn0",
             "pathname": "/trips/oneway",
             "search": "",
             "state": undefined,
@@ -156,6 +156,31 @@ exports[`*************** Testing the SideMenu component *************** Should r
                 </a>
               </LinkAnchor>
             </Link>
+            <Link
+              className="menuItem black-text sidenav-close"
+              to="/create-accommodation"
+            >
+              <LinkAnchor
+                className="menuItem black-text sidenav-close"
+                href="/create-accommodation"
+                navigate={[Function]}
+              >
+                <a
+                  className="menuItem black-text sidenav-close"
+                  href="/create-accommodation"
+                  onClick={[Function]}
+                >
+                  <h6>
+                    Create Accommodation
+                  </h6>
+                  <i
+                    className="material-icons"
+                  >
+                    house
+                  </i>
+                </a>
+              </LinkAnchor>
+            </Link>
           </div>
         </div>
       </_default>
@@ -193,7 +218,7 @@ exports[`*************** Testing the SideMenu component *************** Should r
           "entries": Array [
             Object {
               "hash": "",
-              "key": "6tsk7b",
+              "key": "y6nk1b",
               "pathname": "/dashboard",
               "search": "",
               "state": undefined,
@@ -207,7 +232,7 @@ exports[`*************** Testing the SideMenu component *************** Should r
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "6tsk7b",
+            "key": "y6nk1b",
             "pathname": "/dashboard",
             "search": "",
             "state": undefined,
@@ -316,6 +341,31 @@ exports[`*************** Testing the SideMenu component *************** Should r
                     className="material-icons"
                   >
                     card_travel
+                  </i>
+                </a>
+              </LinkAnchor>
+            </Link>
+            <Link
+              className="menuItem black-text sidenav-close"
+              to="/create-accommodation"
+            >
+              <LinkAnchor
+                className="menuItem black-text sidenav-close"
+                href="/create-accommodation"
+                navigate={[Function]}
+              >
+                <a
+                  className="menuItem black-text sidenav-close"
+                  href="/create-accommodation"
+                  onClick={[Function]}
+                >
+                  <h6>
+                    Create Accommodation
+                  </h6>
+                  <i
+                    className="material-icons"
+                  >
+                    house
                   </i>
                 </a>
               </LinkAnchor>
