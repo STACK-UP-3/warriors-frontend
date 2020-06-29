@@ -24,7 +24,7 @@ exports[`*************** Testing the SingleTripLayout  component ***************
           "entries": Array [
             Object {
               "hash": "",
-              "key": "64mfac",
+              "key": "b8c136",
               "pathname": "/",
               "search": "",
               "state": undefined,
@@ -38,7 +38,7 @@ exports[`*************** Testing the SingleTripLayout  component ***************
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "64mfac",
+            "key": "b8c136",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -100,7 +100,7 @@ exports[`*************** Testing the SingleTripLayout  component ***************
           "entries": Array [
             Object {
               "hash": "",
-              "key": "0cz1z0",
+              "key": "ankbmb",
               "pathname": "/",
               "search": "",
               "state": undefined,
@@ -114,7 +114,7 @@ exports[`*************** Testing the SingleTripLayout  component ***************
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "0cz1z0",
+            "key": "ankbmb",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -176,7 +176,7 @@ exports[`*************** Testing the SingleTripLayout  component ***************
           "entries": Array [
             Object {
               "hash": "",
-              "key": "25hyln",
+              "key": "tunq06",
               "pathname": "/",
               "search": "",
               "state": undefined,
@@ -190,7 +190,7 @@ exports[`*************** Testing the SingleTripLayout  component ***************
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "25hyln",
+            "key": "tunq06",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -396,6 +396,31 @@ exports[`*************** Testing the SingleTripLayout  component ***************
                           </a>
                         </LinkAnchor>
                       </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/create-accommodation"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/create-accommodation"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/create-accommodation"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Create Accommodation
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              house
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
                     </div>
                   </div>
                 </_default>
@@ -508,6 +533,31 @@ exports[`*************** Testing the SingleTripLayout  component ***************
                                     className="material-icons"
                                   >
                                     card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/create-accommodation"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/create-accommodation"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/create-accommodation"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Create Accommodation
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    house
                                   </i>
                                 </a>
                               </LinkAnchor>
@@ -801,7 +851,7 @@ exports[`*************** Testing the SingleTripLayout  component ***************
           "entries": Array [
             Object {
               "hash": "",
-              "key": "ra1wcm",
+              "key": "12d656",
               "pathname": "/",
               "search": "",
               "state": undefined,
@@ -815,7 +865,7 @@ exports[`*************** Testing the SingleTripLayout  component ***************
           "listen": [Function],
           "location": Object {
             "hash": "",
-            "key": "ra1wcm",
+            "key": "12d656",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -1021,6 +1071,31 @@ exports[`*************** Testing the SingleTripLayout  component ***************
                           </a>
                         </LinkAnchor>
                       </Link>
+                      <Link
+                        className="menuItem black-text sidenav-close"
+                        to="/create-accommodation"
+                      >
+                        <LinkAnchor
+                          className="menuItem black-text sidenav-close"
+                          href="/create-accommodation"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="menuItem black-text sidenav-close"
+                            href="/create-accommodation"
+                            onClick={[Function]}
+                          >
+                            <h6>
+                              Create Accommodation
+                            </h6>
+                            <i
+                              className="material-icons"
+                            >
+                              house
+                            </i>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
                     </div>
                   </div>
                 </_default>
@@ -1133,6 +1208,31 @@ exports[`*************** Testing the SingleTripLayout  component ***************
                                     className="material-icons"
                                   >
                                     card_travel
+                                  </i>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              className="menuItem black-text sidenav-close"
+                              to="/create-accommodation"
+                            >
+                              <LinkAnchor
+                                className="menuItem black-text sidenav-close"
+                                href="/create-accommodation"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="menuItem black-text sidenav-close"
+                                  href="/create-accommodation"
+                                  onClick={[Function]}
+                                >
+                                  <h6>
+                                    Create Accommodation
+                                  </h6>
+                                  <i
+                                    className="material-icons"
+                                  >
+                                    house
                                   </i>
                                 </a>
                               </LinkAnchor>

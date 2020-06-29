@@ -1,0 +1,1442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <create Accommodation form/> Component Should handle form methods process 1`] = `
+<div>
+  <form
+    id="createAccommodationForm"
+    onSubmit={[Function]}
+    testdata="createAccommodationForm"
+  >
+    <div
+      className="form-content"
+    >
+      <div
+        className="row"
+        id="textInput"
+      >
+        <div
+          className="input-field col s12 m6"
+        >
+          <input
+            className="validate"
+            disabled={true}
+            id="name"
+            name="name"
+            onChange={[Function]}
+            required={true}
+            testdata="inputChange"
+            type="text"
+          />
+          <label
+            htmlFor="name"
+          >
+            Name
+          </label>
+        </div>
+        <div
+          className="input-field col s12 m6"
+          id="onwerField"
+        >
+          <input
+            className="validate"
+            disabled={true}
+            id="owner"
+            name="owner"
+            onChange={[Function]}
+            required={true}
+            testdata="inputChange"
+            type="text"
+          />
+          <label
+            htmlFor="owner"
+          >
+            Owner
+          </label>
+        </div>
+      </div>
+      <div
+        className="row"
+        id="textInput"
+      >
+        <div
+          className="input-field col s12 m6"
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <select
+            className="validate"
+            disabled={true}
+            name="location"
+            onChange={[Function]}
+            required={true}
+          >
+            <option
+              defaultValue="none"
+            >
+              Choose Location
+            </option>
+            <option
+              key="1"
+              value="kigali"
+            >
+              kigali
+            </option>
+            <option
+              key="1"
+              value="bujumbura"
+            >
+              bujumbura
+            </option>
+          </select>
+          <label
+            htmlFor="location"
+          >
+            Location
+          </label>
+        </div>
+        <div
+          className="input-field col s12 m6"
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <select
+            className="validate"
+            disabled={true}
+            name="type"
+            onChange={[Function]}
+            required={true}
+          >
+            <option
+              defaultValue="none"
+            >
+              Choose type
+            </option>
+            <option
+              value="Mansion"
+            >
+              Mansion
+            </option>
+            <option
+              value="Hotel"
+            >
+              Hotel
+            </option>
+            <option
+              value="Guest House"
+            >
+              Guest House
+            </option>
+          </select>
+          <label
+            htmlFor="type"
+          >
+            Type
+          </label>
+        </div>
+      </div>
+      <div
+        className="row"
+        id="textInput"
+      >
+        <div
+          className="input-field col s12 m6"
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <select
+            className="validate"
+            disabled={true}
+            name="status"
+            onChange={[Function]}
+          >
+            <option
+              defaultValue="none"
+            >
+              Choose status
+            </option>
+            <option
+              value="available"
+            >
+              Available
+            </option>
+            <option
+              value="booked"
+            >
+              Booked
+            </option>
+          </select>
+          <label
+            htmlFor="status"
+          >
+            Status
+          </label>
+        </div>
+        <div
+          className="input-field col s12 m6"
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <input
+            className="validate"
+            disabled={true}
+            id="description"
+            name="description"
+            onChange={[Function]}
+            testdata="inputChange"
+            type="text"
+          />
+          <label
+            htmlFor="description"
+          >
+            Additional Info
+          </label>
+        </div>
+      </div>
+      <div
+        className="row services"
+      >
+        <h6
+          className="headings"
+        >
+          Services
+        </h6>
+        <div
+          className="row card service"
+          id="textInput"
+          key="0"
+        >
+          <div
+            className="input-field col s12 m4"
+            style={
+              Object {
+                "marginTop": 20,
+              }
+            }
+          >
+            <input
+              className="validate"
+              disabled={true}
+              id="serviceName0"
+              name="name"
+              onChange={[Function]}
+              required={true}
+              testdata="inputChange"
+              type="text"
+            />
+            <label
+              htmlFor="serviceName0"
+            >
+              Sevice Name
+            </label>
+          </div>
+          <div
+            className="input-field col s12 m4"
+            style={
+              Object {
+                "marginTop": 20,
+              }
+            }
+          >
+            <input
+              className="validate"
+              disabled={true}
+              id="serviceCost0"
+              name="cost"
+              onChange={[Function]}
+              testdata="inputChange"
+              type="text"
+            />
+            <label
+              htmlFor="serviceCost0"
+            >
+              Sevice Cost
+            </label>
+          </div>
+          <div
+            className="input-field col s12 m4"
+            style={
+              Object {
+                "marginTop": 20,
+              }
+            }
+          >
+            <input
+              className="validate"
+              disabled={true}
+              id="serviceDetails0"
+              name="description"
+              onChange={[Function]}
+              testdata="inputChange"
+              type="text"
+            />
+            <label
+              htmlFor="serviceDetails0"
+            >
+              Sevice Details
+            </label>
+          </div>
+        </div>
+        <AddButton
+          add={[Function]}
+          item="services"
+        />
+      </div>
+      <div
+        className="row card accImages"
+        id="textInput"
+      >
+        <h6
+          className="headings"
+        >
+          Accommodation Images
+        </h6>
+        <div
+          className="row"
+          key="0"
+        >
+          <div
+            className="file-field input-field col m6 s12"
+            style={
+              Object {
+                "marginTop": "20px",
+              }
+            }
+          >
+            <div
+              className="btn"
+            >
+              <input
+                accept="image/*"
+                onChange={[Function]}
+                required={true}
+                type="file"
+              />
+              <i
+                className="material-icons"
+              >
+                folder
+              </i>
+            </div>
+            <div
+              className="file-path-wrapper"
+            >
+              <input
+                className="file-path validate"
+                placeholder="Upload image"
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            className="input-field col s12 m6"
+            style={
+              Object {
+                "marginTop": "20px",
+              }
+            }
+          >
+            <input
+              className="validate"
+              disabled={true}
+              id="images0"
+              name="details"
+              onChange={[Function]}
+              testdata="inputChange"
+              type="text"
+            />
+            <label
+              htmlFor="images0"
+            >
+              Image Caption
+            </label>
+          </div>
+        </div>
+        <AddButton
+          add={[Function]}
+          item="images"
+        />
+      </div>
+      <div
+        className="row rooms"
+        id="textInput"
+      >
+        <h6
+          className="headings"
+        >
+          Rooms
+        </h6>
+        <div
+          className="row card room"
+          key="0"
+        >
+          <div
+            className="col s12 m8 image-part"
+          >
+            <div
+              className="file-field input-field"
+            >
+              <div
+                className="btn"
+              >
+                <input
+                  accept="image/*"
+                  onChange={[Function]}
+                  required={true}
+                  type="file"
+                />
+                <i
+                  className="material-icons"
+                >
+                  folder
+                </i>
+              </div>
+              <div
+                className="file-path-wrapper"
+              >
+                <input
+                  className="file-path validate"
+                  placeholder="Upload image"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div
+              className="input-field col s12 "
+              style={
+                Object {
+                  "marginTop": 30,
+                }
+              }
+            >
+              <input
+                className="validate"
+                disabled={true}
+                id="image0"
+                name="details"
+                onChange={[Function]}
+                testdata="inputChange"
+                type="text"
+              />
+              <label
+                htmlFor="image0"
+              >
+                Image Caption
+              </label>
+            </div>
+          </div>
+          <div
+            className="col s12 m4"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="input-field col s12 "
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <input
+                  className="validate"
+                  disabled={true}
+                  id="name0"
+                  name="name"
+                  onChange={[Function]}
+                  required={true}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="name0"
+                >
+                  Room Name
+                </label>
+              </div>
+              <div
+                className="input-field col s12 "
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <input
+                  className="validate"
+                  disabled={true}
+                  id="roomNumber0"
+                  name="roomNumber"
+                  onChange={[Function]}
+                  required={true}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="roomNumber0"
+                >
+                  Room Number
+                </label>
+              </div>
+              <div
+                className="input-field col s12"
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <select
+                  className="validate"
+                  disabled={true}
+                  id="type0"
+                  name="type"
+                  onChange={[Function]}
+                  required={true}
+                >
+                  <option
+                    defaultValue="none"
+                  >
+                    Choose type
+                  </option>
+                  <option
+                    value="vip"
+                  >
+                    VIP
+                  </option>
+                  <option
+                    value="medium"
+                  >
+                    Medium
+                  </option>
+                  <option
+                    value="low level"
+                  >
+                    Low level
+                  </option>
+                </select>
+                <label
+                  htmlFor="type0"
+                >
+                  Type
+                </label>
+              </div>
+              <div
+                className="input-field col s12 "
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <input
+                  className="validate"
+                  disabled={true}
+                  id="cost0"
+                  name="cost"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="cost0"
+                >
+                  Room Cost
+                </label>
+              </div>
+              <div
+                className="input-field col s12 "
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <input
+                  className="validate"
+                  disabled={true}
+                  id="similarRooms0"
+                  name="similarRooms"
+                  onChange={[Function]}
+                  required={true}
+                  testdata="inputChange"
+                  type="number"
+                />
+                <label
+                  htmlFor="similarRooms0"
+                >
+                  Similar Rooms
+                </label>
+              </div>
+              <div
+                className="input-field col s12"
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <select
+                  className="validate"
+                  disabled={true}
+                  id="roomStatus0"
+                  name="status"
+                  onChange={[Function]}
+                >
+                  <option
+                    defaultValue="none"
+                  >
+                    Choose status
+                  </option>
+                  <option
+                    value="available"
+                  >
+                    Available
+                  </option>
+                  <option
+                    value="booked"
+                  >
+                    Booked
+                  </option>
+                </select>
+                <label
+                  htmlFor="roomStatus0"
+                >
+                  Status
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <AddButton
+          add={[Function]}
+          item="rooms"
+        />
+      </div>
+      <div
+        className="contentFooter"
+      >
+        <p
+          className="error"
+        />
+      </div>
+    </div>
+    <div
+      className="form-footer"
+    >
+      <div
+        className="submitBtn"
+      >
+        <button
+          className="btn waves-effect waves-light"
+          disabled={true}
+          id="submit"
+          type="submit"
+        >
+          <Loader
+            color="#fff"
+            css=""
+            loading={true}
+            margin={5}
+            size={5}
+          />
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Test <create Accommodation form/> Component Should render the create accommodation form correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(AccommodationForm)>
+    <AccommodationForm
+      accomCreateResponse={
+        Object {
+          "error": false,
+          "loading": false,
+          "message": "",
+        }
+      }
+      accommodationProcess={[Function]}
+      cities={Array []}
+      citiesProcess={[Function]}
+    >
+      <div>
+        <form
+          id="createAccommodationForm"
+          onSubmit={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": Promise {},
+                },
+              ],
+            }
+          }
+          testdata="createAccommodationForm"
+        >
+          <div
+            className="form-content"
+          >
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12 m6"
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="name"
+                  name="name"
+                  onChange={[Function]}
+                  required={true}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="name"
+                >
+                  Name
+                </label>
+              </div>
+              <div
+                className="input-field col s12 m6"
+                id="onwerField"
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="owner"
+                  name="owner"
+                  onChange={[Function]}
+                  required={true}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="owner"
+                >
+                  Owner
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12 m6"
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <select
+                  className="validate"
+                  disabled={false}
+                  name="location"
+                  onChange={[Function]}
+                  required={true}
+                >
+                  <option
+                    defaultValue="none"
+                  >
+                    Choose Location
+                  </option>
+                </select>
+                <label
+                  htmlFor="location"
+                >
+                  Location
+                </label>
+              </div>
+              <div
+                className="input-field col s12 m6"
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <select
+                  className="validate"
+                  disabled={false}
+                  name="type"
+                  onChange={[Function]}
+                  required={true}
+                >
+                  <option
+                    defaultValue="none"
+                  >
+                    Choose type
+                  </option>
+                  <option
+                    value="Mansion"
+                  >
+                    Mansion
+                  </option>
+                  <option
+                    value="Hotel"
+                  >
+                    Hotel
+                  </option>
+                  <option
+                    value="Guest House"
+                  >
+                    Guest House
+                  </option>
+                </select>
+                <label
+                  htmlFor="type"
+                >
+                  Type
+                </label>
+              </div>
+            </div>
+            <div
+              className="row"
+              id="textInput"
+            >
+              <div
+                className="input-field col s12 m6"
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <select
+                  className="validate"
+                  disabled={false}
+                  name="status"
+                  onChange={[Function]}
+                >
+                  <option
+                    defaultValue="none"
+                  >
+                    Choose status
+                  </option>
+                  <option
+                    value="available"
+                  >
+                    Available
+                  </option>
+                  <option
+                    value="booked"
+                  >
+                    Booked
+                  </option>
+                </select>
+                <label
+                  htmlFor="status"
+                >
+                  Status
+                </label>
+              </div>
+              <div
+                className="input-field col s12 m6"
+                style={
+                  Object {
+                    "marginTop": "20px",
+                  }
+                }
+              >
+                <input
+                  className="validate"
+                  disabled={false}
+                  id="description"
+                  name="description"
+                  onChange={[Function]}
+                  testdata="inputChange"
+                  type="text"
+                />
+                <label
+                  htmlFor="description"
+                >
+                  Additional Info
+                </label>
+              </div>
+            </div>
+            <div
+              className="row services"
+            >
+              <h6
+                className="headings"
+              >
+                Services
+              </h6>
+              <div
+                className="row card service"
+                id="textInput"
+                key="0"
+              >
+                <div
+                  className="input-field col s12 m4"
+                  style={
+                    Object {
+                      "marginTop": 20,
+                    }
+                  }
+                >
+                  <input
+                    className="validate"
+                    disabled={false}
+                    id="serviceName0"
+                    name="name"
+                    onChange={[Function]}
+                    required={true}
+                    testdata="inputChange"
+                    type="text"
+                  />
+                  <label
+                    htmlFor="serviceName0"
+                  >
+                    Sevice Name
+                  </label>
+                </div>
+                <div
+                  className="input-field col s12 m4"
+                  style={
+                    Object {
+                      "marginTop": 20,
+                    }
+                  }
+                >
+                  <input
+                    className="validate"
+                    disabled={false}
+                    id="serviceCost0"
+                    name="cost"
+                    onChange={[Function]}
+                    testdata="inputChange"
+                    type="text"
+                  />
+                  <label
+                    htmlFor="serviceCost0"
+                  >
+                    Sevice Cost
+                  </label>
+                </div>
+                <div
+                  className="input-field col s12 m4"
+                  style={
+                    Object {
+                      "marginTop": 20,
+                    }
+                  }
+                >
+                  <input
+                    className="validate"
+                    disabled={false}
+                    id="serviceDetails0"
+                    name="description"
+                    onChange={[Function]}
+                    testdata="inputChange"
+                    type="text"
+                  />
+                  <label
+                    htmlFor="serviceDetails0"
+                  >
+                    Sevice Details
+                  </label>
+                </div>
+              </div>
+              <AddButton
+                add={[Function]}
+                item="services"
+              >
+                <button
+                  className="btn-floating waves-effect waves-light tooltipped\\" add-btn right"
+                  data-tooltip="Add item"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <i
+                    className="material-icons"
+                  >
+                    add
+                  </i>
+                </button>
+              </AddButton>
+            </div>
+            <div
+              className="row card accImages"
+              id="textInput"
+            >
+              <h6
+                className="headings"
+              >
+                Accommodation Images
+              </h6>
+              <div
+                className="row"
+                key="0"
+              >
+                <div
+                  className="file-field input-field col m6 s12"
+                  style={
+                    Object {
+                      "marginTop": "20px",
+                    }
+                  }
+                >
+                  <div
+                    className="btn"
+                  >
+                    <input
+                      accept="image/*"
+                      onChange={[Function]}
+                      required={true}
+                      type="file"
+                    />
+                    <i
+                      className="material-icons"
+                    >
+                      folder
+                    </i>
+                  </div>
+                  <div
+                    className="file-path-wrapper"
+                  >
+                    <input
+                      className="file-path validate"
+                      placeholder="Upload image"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="input-field col s12 m6"
+                  style={
+                    Object {
+                      "marginTop": "20px",
+                    }
+                  }
+                >
+                  <input
+                    className="validate"
+                    disabled={false}
+                    id="images0"
+                    name="details"
+                    onChange={[Function]}
+                    testdata="inputChange"
+                    type="text"
+                  />
+                  <label
+                    htmlFor="images0"
+                  >
+                    Image Caption
+                  </label>
+                </div>
+              </div>
+              <AddButton
+                add={[Function]}
+                item="images"
+              >
+                <button
+                  className="btn-floating waves-effect waves-light tooltipped\\" add-btn right"
+                  data-tooltip="Add item"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <i
+                    className="material-icons"
+                  >
+                    add
+                  </i>
+                </button>
+              </AddButton>
+            </div>
+            <div
+              className="row rooms"
+              id="textInput"
+            >
+              <h6
+                className="headings"
+              >
+                Rooms
+              </h6>
+              <div
+                className="row card room"
+                key="0"
+              >
+                <div
+                  className="col s12 m8 image-part"
+                >
+                  <div
+                    className="file-field input-field"
+                  >
+                    <div
+                      className="btn"
+                    >
+                      <input
+                        accept="image/*"
+                        onChange={[Function]}
+                        required={true}
+                        type="file"
+                      />
+                      <i
+                        className="material-icons"
+                      >
+                        folder
+                      </i>
+                    </div>
+                    <div
+                      className="file-path-wrapper"
+                    >
+                      <input
+                        className="file-path validate"
+                        placeholder="Upload image"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="input-field col s12 "
+                    style={
+                      Object {
+                        "marginTop": 30,
+                      }
+                    }
+                  >
+                    <input
+                      className="validate"
+                      disabled={false}
+                      id="image0"
+                      name="details"
+                      onChange={[Function]}
+                      testdata="inputChange"
+                      type="text"
+                    />
+                    <label
+                      htmlFor="image0"
+                    >
+                      Image Caption
+                    </label>
+                  </div>
+                </div>
+                <div
+                  className="col s12 m4"
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="input-field col s12 "
+                      style={
+                        Object {
+                          "marginTop": "20px",
+                        }
+                      }
+                    >
+                      <input
+                        className="validate"
+                        disabled={false}
+                        id="name0"
+                        name="name"
+                        onChange={[Function]}
+                        required={true}
+                        testdata="inputChange"
+                        type="text"
+                      />
+                      <label
+                        htmlFor="name0"
+                      >
+                        Room Name
+                      </label>
+                    </div>
+                    <div
+                      className="input-field col s12 "
+                      style={
+                        Object {
+                          "marginTop": "20px",
+                        }
+                      }
+                    >
+                      <input
+                        className="validate"
+                        disabled={false}
+                        id="roomNumber0"
+                        name="roomNumber"
+                        onChange={[Function]}
+                        required={true}
+                        testdata="inputChange"
+                        type="text"
+                      />
+                      <label
+                        htmlFor="roomNumber0"
+                      >
+                        Room Number
+                      </label>
+                    </div>
+                    <div
+                      className="input-field col s12"
+                      style={
+                        Object {
+                          "marginTop": "20px",
+                        }
+                      }
+                    >
+                      <select
+                        className="validate"
+                        disabled={false}
+                        id="type0"
+                        name="type"
+                        onChange={[Function]}
+                        required={true}
+                      >
+                        <option
+                          defaultValue="none"
+                        >
+                          Choose type
+                        </option>
+                        <option
+                          value="vip"
+                        >
+                          VIP
+                        </option>
+                        <option
+                          value="medium"
+                        >
+                          Medium
+                        </option>
+                        <option
+                          value="low level"
+                        >
+                          Low level
+                        </option>
+                      </select>
+                      <label
+                        htmlFor="type0"
+                      >
+                        Type
+                      </label>
+                    </div>
+                    <div
+                      className="input-field col s12 "
+                      style={
+                        Object {
+                          "marginTop": "20px",
+                        }
+                      }
+                    >
+                      <input
+                        className="validate"
+                        disabled={false}
+                        id="cost0"
+                        name="cost"
+                        onChange={[Function]}
+                        testdata="inputChange"
+                        type="text"
+                      />
+                      <label
+                        htmlFor="cost0"
+                      >
+                        Room Cost
+                      </label>
+                    </div>
+                    <div
+                      className="input-field col s12 "
+                      style={
+                        Object {
+                          "marginTop": "20px",
+                        }
+                      }
+                    >
+                      <input
+                        className="validate"
+                        disabled={false}
+                        id="similarRooms0"
+                        name="similarRooms"
+                        onChange={[Function]}
+                        required={true}
+                        testdata="inputChange"
+                        type="number"
+                      />
+                      <label
+                        htmlFor="similarRooms0"
+                      >
+                        Similar Rooms
+                      </label>
+                    </div>
+                    <div
+                      className="input-field col s12"
+                      style={
+                        Object {
+                          "marginTop": "20px",
+                        }
+                      }
+                    >
+                      <select
+                        className="validate"
+                        disabled={false}
+                        id="roomStatus0"
+                        name="status"
+                        onChange={[Function]}
+                      >
+                        <option
+                          defaultValue="none"
+                        >
+                          Choose status
+                        </option>
+                        <option
+                          value="available"
+                        >
+                          Available
+                        </option>
+                        <option
+                          value="booked"
+                        >
+                          Booked
+                        </option>
+                      </select>
+                      <label
+                        htmlFor="roomStatus0"
+                      >
+                        Status
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <AddButton
+                add={[Function]}
+                item="rooms"
+              >
+                <button
+                  className="btn-floating waves-effect waves-light tooltipped\\" add-btn right"
+                  data-tooltip="Add item"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <i
+                    className="material-icons"
+                  >
+                    add
+                  </i>
+                </button>
+              </AddButton>
+            </div>
+            <div
+              className="contentFooter"
+            >
+              <ToastContainer
+                autoClose={8000}
+                closeButton={[Function]}
+                closeOnClick={true}
+                draggable={false}
+                draggablePercent={80}
+                hideProgressBar={true}
+                newestOnTop={false}
+                pauseOnFocusLoss={true}
+                pauseOnHover={true}
+                position="top-center"
+                role="alert"
+                rtl={false}
+                transition={[Function]}
+              >
+                <div
+                  className="Toastify"
+                />
+              </ToastContainer>
+            </div>
+          </div>
+          <div
+            className="form-footer"
+          >
+            <div
+              className="submitBtn"
+            >
+              <button
+                className="btn waves-effect waves-light"
+                disabled={true}
+                id="submit"
+                type="submit"
+              >
+                Send Request
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </AccommodationForm>
+  </Connect(AccommodationForm)>
+</Provider>
+`;
+
+exports[`Test <create accommodation/> Component Should render component correctly 1`] = `
+<div>
+  <NavBar />
+  <main
+    className="createAccomContainer"
+  >
+    <div
+      className="sideMenu"
+    >
+      <div
+        className="fixed-sidebar container center hide-on-med-and-down"
+      >
+        <_default />
+      </div>
+      <div
+        className="show-on-med-and-down container center"
+      >
+        <mobileSidebar />
+      </div>
+    </div>
+    <div
+      className="mainContent"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col s12 m2"
+        />
+        <div
+          className="col s12 m10 content"
+        >
+          <h5
+            className="center"
+          >
+            Create Accommodation
+          </h5>
+          <Connect(AccommodationForm) />
+        </div>
+      </div>
+    </div>
+  </main>
+  <_default />
+</div>
+`;

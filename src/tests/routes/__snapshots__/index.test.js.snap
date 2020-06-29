@@ -43,6 +43,10 @@ exports[`test render routes correctly 1`] = `
         component={[Function]}
         path="/trips/oneway"
       />
+      <Route
+        component={[Function]}
+        path="/create-accommodation"
+      />
     </Switch>
   </div>
 </BrowserRouter>

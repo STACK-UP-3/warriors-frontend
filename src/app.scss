@@ -1,24 +1,25 @@
 // importing app base styles
 
-@import'./styles/base/settings';
-@import'./styles/base/base';
+@import './styles/base/settings';
+@import './styles/base/base';
 
 // Importing order is basing on the alphabetical order of the components
 
-@import'./styles/components/buttons';
-@import'./styles/components/dashboard';
-@import'./styles/components/errors';
-@import'./styles/components/filters';
-@import'./styles/components/footer';
-@import'./styles/components/inputs';
-@import'./styles/components/login';
-@import'./styles/components/loginForm';
-@import'./styles/components/navbar';
-@import'./styles/components/noContent';
+@import './styles/components/buttons';
+@import './styles/components/dashboard';
+@import './styles/components/errors';
+@import './styles/components/filters';
+@import './styles/components/footer';
+@import './styles/components/inputs';
+@import './styles/components/login';
+@import './styles/components/loginForm';
+@import './styles/components/navbar';
+@import './styles/components/noContent';
 @import './styles/components/dashboard/onewayTrip.scss';
-@import'./styles/components/pagination';
-@import'./styles/components/sideMenu';
+@import './styles/components/pagination';
+@import './styles/components/sideMenu';
 @import './styles/components/signup';
 @import './styles/components/singleTripLayout';
 @import './styles/components/skeleton';
 @import './styles/components/tripReqsLayout';
+@import './styles/components/dashboard/accommodation.scss';

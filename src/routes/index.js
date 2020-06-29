@@ -9,21 +9,23 @@ import ViewTrips from '../components/tripRequests/viewTripRequests/tripRequestsL
 import ViewSingleTrip from '../components/tripRequests/viewTripRequests/singleTripLayout';
 import EditTripRequest from '../components/editTripRequest';
 import OnewayTrip from '../components/trips/createOnewayTrip';
+import CreateAccommodation from '../components/accommodations/createAccommodation';
 
 const AppRoute = () => {
   return (
     <BrowserRouter>
       <div className='app'>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/dashboard" component={Dashboard} />
-          <Route path="/login" component={Login} />
-          <Route path="/signup" component={Signup} />
-          <Route path="/reset" component={ResetPassword} />
-          <Route path="/viewtrips" component={ViewTrips} />
-          <Route path="/viewtrip/:id" component={ViewSingleTrip} />
-          <Route path="/edit/:id" component={EditTripRequest} />
+          <Route exact path='/' component={Home} />
+          <Route path='/dashboard' component={Dashboard} />
+          <Route path='/login' component={Login} />
+          <Route path='/signup' component={Signup} />
+          <Route path='/reset' component={ResetPassword} />
+          <Route path='/viewtrips' component={ViewTrips} />
+          <Route path='/viewtrip/:id' component={ViewSingleTrip} />
+          <Route path='/edit/:id' component={EditTripRequest} />
           <Route path='/trips/oneway' component={OnewayTrip} />
+          <Route path='/create-accommodation' component={CreateAccommodation} />
         </Switch>
       </div>
     </BrowserRouter>

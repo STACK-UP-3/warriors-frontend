@@ -9,18 +9,18 @@ export default class Dashboard extends React.Component {
     return (
       <div>
         <Navbar />
-        <main>
-        <div className='sideMenu'>
-              <div className='fixed-sidebar container center hide-on-med-and-down'>
-                <SideMenu />
-              </div>
-              <div className='show-on-med-and-down container center'>
-                <MobileSidebar />
-              </div>
+        <main style={{ height: '100vh' }}>
+          <div className='sideMenu'>
+            <div className='fixed-sidebar container center hide-on-med-and-down'>
+              <SideMenu />
             </div>
-            <div className='mainContent'>
-                <h1>DashBoard</h1>
+            <div className='show-on-med-and-down container center'>
+              <MobileSidebar />
             </div>
+          </div>
+          <div className='mainContent'>
+            <h1>DashBoard</h1>
+          </div>
         </main>
         <SideInit />
         <Footer />

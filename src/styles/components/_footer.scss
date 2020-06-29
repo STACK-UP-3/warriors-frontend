@@ -2,6 +2,10 @@
   background-color: $baseBlue;
   text-align: center;
   height: 10vh;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 160;
 
   @media (max-width: 500px) {
     height: 15vh;

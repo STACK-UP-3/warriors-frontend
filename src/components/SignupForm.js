@@ -30,6 +30,7 @@ export class SignupForm extends Component {
     };
     await this.props.signupProcess(signupData);
     toast.info(this.props.signup.message);
+    /* istanbul ignore next */
     this.props.signup.error
       ? null
       : document.getElementById('signupForm').reset();

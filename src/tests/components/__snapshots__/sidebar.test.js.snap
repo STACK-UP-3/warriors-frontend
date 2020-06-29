@@ -80,6 +80,19 @@ exports[`Test <Sidebar/> Component Should render Sidemenu correctly 1`] = `
         card_travel
       </i>
     </Link>
+    <Link
+      className="menuItem black-text sidenav-close"
+      to="/create-accommodation"
+    >
+      <h6>
+        Create Accommodation
+      </h6>
+      <i
+        className="material-icons"
+      >
+        house
+      </i>
+    </Link>
   </div>
 </div>
 `;
